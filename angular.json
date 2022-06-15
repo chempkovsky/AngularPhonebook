@@ -13,10 +13,27 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      
+      "i18n": {
+        "sourceLocale": {
+          "code": "en",
+          "baseHref": "en"
+        },
+        "locales": {
+          "ru": {
+            "translation": "src/locale/messages.ru.xlf",
+            "baseHref": "ru"
+          }
+        }
+      },
+
+
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": true,
+            "aot": true,
             "outputPath": "dist/angular-phonebook",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -27,6 +44,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -37,7 +55,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumError": "1.2mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -54,13 +72,22 @@
               "outputHashing": "all"
             },
             "development": {
+              "localize": false,
               "buildOptimizer": false,
               "optimization": false,
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
-            }
+            },
+            "ru": {
+              "localize": ["ru"],
+              "deployUrl": "ru/"
+            },            
+            "en": {
+              "localize": ["en"],
+              "deployUrl": "en/"
+            }            
           },
           "defaultConfiguration": "production"
         },
@@ -72,6 +99,12 @@
             },
             "development": {
               "browserTarget": "AngularPhonebook:build:development"
+            },
+            "ru": {
+              "browserTarget": "AngularPhonebook:build:development,ru"
+            },
+            "en": {
+              "browserTarget": "AngularPhonebook:build:development,en"
             }
           },
           "defaultConfiguration": "development"
@@ -94,6 +127,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []

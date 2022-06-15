@@ -1,0 +1,21 @@
+
+<div fxLayout="row" fxLayoutAlign="flex-end space-around"> 
+    <label fxFlex fxLayoutAlign="flex-start space-around">{{caption}}</label>
+    <span fxFlex="4%"></span>  
+    <ng-template ngFor let-item [ngForOf]="contMenuItems">
+        <span fxFlex="1%"></span>  
+        <button mat-icon-button [color]="item.iconColor" (click)="onContMenuItemClicked(item)" 
+            [matTooltip]="item.caption"> 
+            <mat-icon>{{item.iconName}}</mat-icon>
+        </button>     
+    </ng-template>            
+    <span fxFlex="1%"></span>
+</div> 
+
+<div [style.maxHeight.px]="maxHeightEx" [style.overflow-y]="ovrflw">
+<p>
+    {{ StaticContent }}
+</p>
+</div> 
+
+

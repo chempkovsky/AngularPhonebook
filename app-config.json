@@ -1,0 +1,10 @@
+{
+    "webApiUrl": "http://localhost:5165/",
+    "securityUrl": "http://localhost:5165/",
+    "permissionWebApi": "http://localhost:5165/",
+    "divisionLpWebApi": "http://localhost:5055/",
+    "employeeLpWebApi": "http://localhost:5055/",
+    "phoneLpWebApi": "http://localhost:5056/"
+  }
+  
+  

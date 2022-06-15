@@ -1,0 +1,28 @@
+services:
+  angularphonebook:
+    build: .
+    container_name: 'angular-phone-book'
+    configs:
+      - source: appconfig
+        target: /usr/share/nginx/html/angular-phonebook/ru/assets/app-config.json
+        uid: "103"
+        gid: "103"
+        mode: 0440
+      - source: appconfig
+        target: /usr/share/nginx/html/angular-phonebook/en/assets/app-config.json
+        uid: "103"
+        gid: "103"
+        mode: 0440
+      - source: nginxdefaultconf
+        target: /etc/nginx/conf.d/default.conf
+        uid: "103"
+        gid: "103"
+        mode: 0440
+    ports:
+      - 90:80
+    command: ["/bin/sh", "-c", "exec nginx -g 'daemon off;'"]
+configs:
+  appconfig:
+    file: ./app-config.json
+  nginxdefaultconf:
+    file: ./nginxdefault.conf
