@@ -26,7 +26,7 @@ const routes: Routes = [
 //        outlet: 'dloltnmPhbkDivisionView',
         path: 'dloltnmPhbkDivisionView2PhbkEmployeeView/:hf102', 
         loadChildren: () => import('./../phbk-employee-view/phbk-employee-view-rdl-lazy.routing.module').then(m => m.PhbkEmployeeViewRdlLazyRoutingModule),
-        data: { isdtl: true, vn: 'PhbkEmployeeView', va: 'l', ms: true, /* oltn: 'dloltnmPhbkDivisionView', */ np: '', fh: 2, mh: 10, sf: true, title: rdllzPhbkDivisionView['ListPhbkEmployeeView'], hf: 'hf102',  dp: 2, uid: '887a23eeeaf143e2a83171ab418d5a6c' },
+        data: { isdtl: true, vn: 'PhbkEmployeeView', va: 'l', ms: true, /* oltn: 'dloltnmPhbkDivisionView', */ np: '', fh: 2, mh: 10, sf: true, title: rdllzPhbkDivisionView['ListPhbkEmployeeView'], hf: 'hf102',  dp: 2, uid: '1eb30488fb144a8fb5280c5befe0ce06' },
         canActivate: [AppGlblSettingsServiceActivator],
     },
 

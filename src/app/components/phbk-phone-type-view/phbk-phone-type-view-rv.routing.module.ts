@@ -66,7 +66,7 @@ const routes: Routes = [
         // outlet: 'oltnmPhbkPhoneTypeView',
         path: 'oltnmPhbkPhoneTypeView2PhbkPhoneView/:hf102', 
         loadChildren: () => import('./../phbk-phone-view/phbk-phone-view-rl.routing.module').then(m => m.PhbkPhoneViewRlRoutingModule),
-        data: {  isdtl: true, vn: 'PhbkPhoneView', va: 'l', ms: true,  /* oltn: 'oltnmPhbkPhoneTypeView', */ np: '', fh: 2, mh: 10, sf: true, title: rvllzPhbkPhoneTypeView['ListPhbkPhoneView'], hf: 'hf102',  dp: 2, uid: '91df1cc5bd204d6bb71fb52283ef9e55' },
+        data: {  isdtl: true, vn: 'PhbkPhoneView', va: 'l', ms: true,  /* oltn: 'oltnmPhbkPhoneTypeView', */ np: '', fh: 2, mh: 10, sf: true, title: rvllzPhbkPhoneTypeView['ListPhbkPhoneView'], hf: 'hf102',  dp: 2, uid: 'e01e88265410474d9b81718df3809476' },
         canActivate: [AppGlblSettingsServiceActivator],
     },
 

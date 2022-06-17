@@ -26,7 +26,7 @@ const routes: Routes = [
 //        outlet: 'dloltnmPhbkPhoneTypeView',
         path: 'dloltnmPhbkPhoneTypeView2PhbkPhoneView/:hf102', 
         loadChildren: () => import('./../phbk-phone-view/phbk-phone-view-rdl-lazy.routing.module').then(m => m.PhbkPhoneViewRdlLazyRoutingModule),
-        data: { isdtl: true, vn: 'PhbkPhoneView', va: 'l', ms: true, /* oltn: 'dloltnmPhbkPhoneTypeView', */ np: '', fh: 2, mh: 10, sf: true, title: rdllzPhbkPhoneTypeView['ListPhbkPhoneView'], hf: 'hf102',  dp: 2, uid: '2c394491bfcb463eb01313c82291b500' },
+        data: { isdtl: true, vn: 'PhbkPhoneView', va: 'l', ms: true, /* oltn: 'dloltnmPhbkPhoneTypeView', */ np: '', fh: 2, mh: 10, sf: true, title: rdllzPhbkPhoneTypeView['ListPhbkPhoneView'], hf: 'hf102',  dp: 2, uid: '5d649bc8b65740189b71d6c1ed1463da' },
         canActivate: [AppGlblSettingsServiceActivator],
     },
 

@@ -45,6 +45,14 @@ import { PhbkEnterpriseViewDdlgComponent } from './../ddlg/phbk-enterprise-view-
   styleUrls: ['./phbk-enterprise-view-lform.component.css']
 })
 export class PhbkEnterpriseViewLformComponent implements OnInit, AfterViewInit, IEventEmitterPub, IItemHeightData {
+    frases: {[key:string]: string}  = {
+        'caption': $localize`:Enterprises@@PhbkEnterpriseViewLformComponent.caption:Enterprises`,
+        'update': $localize`:Modify Item@@PhbkEnterpriseViewLformComponent.update:Modify Item`,
+        'delete': $localize`:Delete Item@@PhbkEnterpriseViewLformComponent.delete:Delete Item`,
+        'view': $localize`:View Item@@PhbkEnterpriseViewLformComponent.view:View Item`,
+        'add': $localize`:Add Item@@PhbkEnterpriseViewLformComponent.add:Add Item`,
+        'deletesel': $localize`:Delete Selected@@PhbkEnterpriseViewLformComponent.deletesel:Delete Selected`,
+    }
 
     @Input('show-multi-selected-row') showMultiSelectedRow: boolean = true;
 
@@ -53,7 +61,7 @@ export class PhbkEnterpriseViewLformComponent implements OnInit, AfterViewInit, 
         this.multiSelectedRow.emit(e);
     }
 
-    @Input('caption') caption: string = 'Enterprise';
+    @Input('caption') caption: string = this.frases['caption'];
 
     @Input('filter-max-height')  filterMaxHeight: number | any = null;
     @Input('max-height') maxHeight: number | any = null;
@@ -185,13 +193,13 @@ export class PhbkEnterpriseViewLformComponent implements OnInit, AfterViewInit, 
 
 
     rowMenuItemsData = [
-          {id: 'update', caption: 'Modify Item', iconName: 'edit', iconColor: 'primary', enabled: true},
-          {id: 'delete', caption: 'Delete Item', iconName: 'delete_forever', iconColor: 'warn', enabled: true},
-          {id: 'view', caption: 'View Item', iconName: 'preview', iconColor: 'primary', enabled: true},
+          {id: 'update', caption: this.frases['update'], iconName: 'edit', iconColor: 'primary', enabled: true},
+          {id: 'delete', caption: this.frases['delete'], iconName: 'delete_forever', iconColor: 'warn', enabled: true},
+          {id: 'view', caption: this.frases['view'], iconName: 'preview', iconColor: 'primary', enabled: true},
         ];
     tableMenuItemsData = [
-        {id: 'add', caption: 'Add Item', iconName: 'create', iconColor: 'primary', enabled: true},
-        {id: 'delete', caption: 'Delete Selected', iconName: 'delete_forever', iconColor: 'warn', enabled: true},
+        {id: 'add', caption: this.frases['add'], iconName: 'create', iconColor: 'primary', enabled: true},
+        {id: 'delete', caption: this.frases['deletesel'], iconName: 'delete_forever', iconColor: 'warn', enabled: true},
       ];
 
     constructor(private  frmRootSrv: PhbkEnterpriseViewService, protected appGlblSettings: AppGlblSettingsService, public dialog: MatDialog, private cd: ChangeDetectorRef) {
@@ -207,9 +215,9 @@ export class PhbkEnterpriseViewLformComponent implements OnInit, AfterViewInit, 
 
     onRowMenuItemsData() {
         let tmp: Array<IMenuItemData> = [
-          {id: 'update', caption: 'Modify Item', iconName: 'edit', iconColor: 'primary', enabled: true },
-          {id: 'delete', caption: 'Delete Item', iconName: 'delete_forever', iconColor: 'warn', enabled: true},
-          {id: 'view', caption: 'View Item', iconName: 'preview', iconColor: 'primary', enabled: true },
+          {id: 'update', caption: this.frases['update'], iconName: 'edit', iconColor: 'primary', enabled: true },
+          {id: 'delete', caption: this.frases['delete'], iconName: 'delete_forever', iconColor: 'warn', enabled: true},
+          {id: 'view', caption: this.frases['view'], iconName: 'preview', iconColor: 'primary', enabled: true },
         ];
         tmp = tmp.concat(this._rowCommands);
         tmp[0].enabled = this._canUpdate && ((this.permMask & 4) === 4)  ;
@@ -219,8 +227,8 @@ export class PhbkEnterpriseViewLformComponent implements OnInit, AfterViewInit, 
     }
     onTableMenuItemsData() {
         let tmp: Array<IMenuItemData> = [
-            {id: 'add', caption: 'Add Item', iconName: 'create', iconColor: 'primary', enabled: true},
-            {id: 'delete', caption: 'Delete Item', iconName: 'delete_forever', iconColor: 'warn', enabled: true},
+            {id: 'add', caption: this.frases['add'], iconName: 'create', iconColor: 'primary', enabled: true},
+            {id: 'delete', caption: this.frases['delete'], iconName: 'delete_forever', iconColor: 'warn', enabled: true},
         ];
         tmp = tmp.concat(this._tableCommands);
         tmp[0].enabled = this._canAdd && ((this.permMask & 8) === 8) ;
@@ -239,7 +247,7 @@ export class PhbkEnterpriseViewLformComponent implements OnInit, AfterViewInit, 
 
     onView(e: IPhbkEnterpriseView) {
         let locdata: IPhbkEnterpriseViewVdlg = {
-            title: 'View item',
+            title: this.frases['view'],
             hiddenFilter: this.hiddenFilter,
             eformControlModel: e,
             eformNewControlModel: null
@@ -258,7 +266,7 @@ export class PhbkEnterpriseViewLformComponent implements OnInit, AfterViewInit, 
 
     onAdd(sender: PhbkEnterpriseViewSformComponent) {
         let locdata: IPhbkEnterpriseViewAdlg = {
-            title: 'Add item',
+            title: this.frases['add'],
             hiddenFilter: this.hiddenFilter,
             eformControlModel: null,
             eformNewControlModel: null
@@ -298,7 +306,7 @@ export class PhbkEnterpriseViewLformComponent implements OnInit, AfterViewInit, 
 
     onEdit(e: IPhbkEnterpriseView) {
         let locdata: IPhbkEnterpriseViewUdlg = {
-            title: 'Modify item',
+            title: this.frases['update'],
             hiddenFilter: this.hiddenFilter,
             eformControlModel: e,
             eformNewControlModel: null
@@ -325,7 +333,7 @@ export class PhbkEnterpriseViewLformComponent implements OnInit, AfterViewInit, 
 
     onDelete(e: IPhbkEnterpriseView , sender: PhbkEnterpriseViewSformComponent ) {
         let locdata: IPhbkEnterpriseViewDdlg = {
-            title: 'Delete item',
+            title: this.frases['delete'],
             hiddenFilter: this.hiddenFilter,
             eformControlModel: e,
             eformNewControlModel: null

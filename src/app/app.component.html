@@ -6,35 +6,112 @@
         [opened]="(isHandset$ | async) === false">
       <mat-toolbar>Menu</mat-toolbar>
       <mat-nav-list>
-        <a mat-list-item [routerLink]="['/home']" routerLinkActive="active"> <mat-icon>home</mat-icon> </a> 
+        <a mat-list-item [routerLink]="['/home']" routerLinkActive="active"> <mat-icon>home</mat-icon></a> 
 
-<!--
-        <a mat-list-item [routerLink]="['/admin1feature']" routerLinkActive="active">Admin1</a> 
--->
-        <a mat-list-item [routerLink]="['RDLPhbkPhoneTypeView']" routerLinkActive="active">List of Phone Types (Dlg)</a>
-        <a mat-list-item [routerLink]="['PhbkPhoneTypeView']" routerLinkActive="active">List of Phone Types</a>
-        <a mat-list-item [routerLink]="['/simpledictionary']" routerLinkActive="active">Title for SimpleDictionary </a> 
 
-        <a mat-list-item [routerLink]="['RDLPhbkEnterpriseView']" routerLinkActive="active">List of Enterprises (Dlg)</a>
-        <a mat-list-item [routerLink]="['PhbkEnterpriseView']" routerLinkActive="active">List of Enterprises</a>
+        <mat-expansion-panel >
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-icon>phonelink_setup</mat-icon>
+            </mat-panel-title>            
+            <mat-panel-description>
+              {{frases['Phone-Types']}}
+            </mat-panel-description>            
+          </mat-expansion-panel-header>
+          <a mat-list-item [routerLink]="['PhbkPhoneTypeView']" routerLinkActive="active">{{frases['Phone-Types']}}</a>
+          <a mat-list-item [routerLink]="['RDLPhbkPhoneTypeView']" routerLinkActive="active">{{frases['Phone-Types-Dlg']}}</a>
+        </mat-expansion-panel>
+  
 
-        <a mat-list-item [routerLink]="['RDLPhbkDivisionView']" routerLinkActive="active">List of Divisions (Dlg)</a>
-        <a mat-list-item [routerLink]="['PhbkDivisionView']" routerLinkActive="active">List of Divisions</a>
+        <mat-expansion-panel >
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-icon>phone</mat-icon>
+            </mat-panel-title>            
+            <mat-panel-description>
+              {{frases['Phones']}}
+            </mat-panel-description>            
+          </mat-expansion-panel-header>
+          <a mat-list-item [routerLink]="['PhbkPhoneView']" routerLinkActive="active">{{frases['Phones']}}</a>
+          <a mat-list-item [routerLink]="['RDLPhbkPhoneView']" routerLinkActive="active">{{frases['Phones-Dlg']}}</a>
+        </mat-expansion-panel>
+  
+  
+        <mat-expansion-panel >
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-icon>factory</mat-icon>
+            </mat-panel-title>            
+            <mat-panel-description>
+              {{frases['Enterprises']}}
+            </mat-panel-description>            
+          </mat-expansion-panel-header>
+          <a mat-list-item [routerLink]="['PhbkEnterpriseView']" routerLinkActive="active">{{frases['Enterprises']}}</a>
+          <a mat-list-item [routerLink]="['RDLPhbkEnterpriseView']" routerLinkActive="active">{{frases['Enterprises-Dlg']}}</a>
+        </mat-expansion-panel>
+  
 
-        <a mat-list-item [routerLink]="['PhbkEmployeeView']" routerLinkActive="active">List of Employees</a>
-        <a mat-list-item [routerLink]="['RDLPhbkEmployeeView']" routerLinkActive="active">List of Employees (Dlg)</a>
+        <mat-expansion-panel >
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-icon>layers</mat-icon>
+            </mat-panel-title>            
+            <mat-panel-description>
+              {{frases['Divisions']}}
+            </mat-panel-description>            
+          </mat-expansion-panel-header>
+          <a mat-list-item [routerLink]="['PhbkDivisionView']" routerLinkActive="active">{{frases['Divisions']}}</a>
+          <a mat-list-item [routerLink]="['RDLPhbkDivisionView']" routerLinkActive="active">{{frases['Divisions-Dlg']}}</a>
+        </mat-expansion-panel>
+  
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-icon>people</mat-icon>
+            </mat-panel-title>            
+            <mat-panel-description>
+              {{frases['Employees']}}
+            </mat-panel-description>            
+          </mat-expansion-panel-header>
+          <a mat-list-item [routerLink]="['PhbkEmployeeView']" routerLinkActive="active">{{frases['Employees']}}</a>
+          <a mat-list-item [routerLink]="['RDLPhbkEmployeeView']" routerLinkActive="active">{{frases['Employees-Dlg']}}</a>
+        </mat-expansion-panel>
+  
 
-        <a mat-list-item [routerLink]="['PhbkPhoneView']" routerLinkActive="active">List of Phones</a>
-        <a mat-list-item [routerLink]="['RDLPhbkPhoneView']" routerLinkActive="active">List of Phones (Dlg)</a>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-icon>featured_play_liste</mat-icon>
+            </mat-panel-title>            
+            <mat-panel-description>
+              {{frases['Features']}}
+            </mat-panel-description>            
+          </mat-expansion-panel-header>
+          <a mat-list-item [routerLink]="['/simpledictionary']" routerLinkActive="active">{{frases['Feature-Sample']}}</a> 
+        </mat-expansion-panel>
 
-        <a mat-list-item [routerLink]="['aspnetmodelView']" routerLinkActive="active">List of aspnetmodels</a>
-        <a mat-list-item [routerLink]="['RDLaspnetmodelView']" routerLinkActive="active">List of aspnetmodels (Dlg)</a>
 
-        <a mat-list-item [routerLink]="['aspnetroleView']" routerLinkActive="active">List of aspnetroles</a>
-        <a mat-list-item [routerLink]="['RDLaspnetroleView']" routerLinkActive="active">List of aspnetroles (Dlg)</a>
+        <mat-expansion-panel >
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-icon>phonelink_setup</mat-icon>
+            </mat-panel-title>            
+            <mat-panel-description>
+              {{frases['Admin']}}
+            </mat-panel-description>            
+          </mat-expansion-panel-header>
+          <a mat-list-item [routerLink]="['aspnetmodelView']" routerLinkActive="active">{{frases['Models']}}</a>
+          <a mat-list-item [routerLink]="['RDLaspnetmodelView']" routerLinkActive="active">{{frases['Models-Dlg']}}</a>
+  
+          <a mat-list-item [routerLink]="['aspnetroleView']" routerLinkActive="active">{{frases['Roles']}}</a>
+          <a mat-list-item [routerLink]="['RDLaspnetroleView']" routerLinkActive="active">{{frases['Roles-Dlg']}}</a>
+  
+          <a mat-list-item [routerLink]="['aspnetuserView']" routerLinkActive="active">{{frases['Users']}}</a>
+          <a mat-list-item [routerLink]="['RDLaspnetuserView']" routerLinkActive="active">{{frases['Users-Dlg']}}</a>
+        </mat-expansion-panel>
+  
 
-        <a mat-list-item [routerLink]="['aspnetuserView']" routerLinkActive="active">List of aspnetusers</a>
-        <a mat-list-item [routerLink]="['RDLaspnetuserView']" routerLinkActive="active">List of aspnetusers  (Dlg)</a>
+
       </mat-nav-list>
     </mat-sidenav>
     <mat-sidenav-content style="background-color: lavender">
@@ -57,19 +134,19 @@
             <mat-menu #authMainMenu="matMenu">
               <button mat-menu-item [routerLink]="['/authentication/login']">
                 <mat-icon>exit_to_app</mat-icon>
-                <span>Sign in</span>
+                <span>{{frases['Sign-in']}}</span>
               </button>
               <button mat-menu-item  [routerLink]="['/authentication/logout']">
                 <mat-icon>link_off</mat-icon>
-                <span>Sign out</span>
+                <span>{{frases['Sign-out']}}</span>
               </button>
               <button mat-menu-item  [routerLink]="['/authentication/register']">
                 <mat-icon>person_add</mat-icon>
-                <span>Registration</span>
+                <span>{{frases['Registration']}}</span>
               </button>
               <button mat-menu-item  [routerLink]="['/authentication/changepassword']">
                 <mat-icon>edit</mat-icon>
-                <span>Change Password</span>
+                <span>{{frases['Change-Password']}}</span>
               </button>
               <a mat-menu-item href="/en/home" >
                   <mat-icon>language</mat-icon>

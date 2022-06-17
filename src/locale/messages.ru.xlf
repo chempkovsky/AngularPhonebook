@@ -1,7 +1,223 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="ru" date="2022-06-13T14:12:23Z">
+  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="ru" date="2022-06-17T18:19:19Z">
     <body>
+      <trans-unit id="AppComponent.Home" datatype="html">
+        <source>Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">19,18</context>
+        </context-group>
+        <note priority="1" from="description">Home</note>
+        <target>Дом</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Phone-Types" datatype="html">
+        <source>Phone Types</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">22,18</context>
+        </context-group>
+        <note priority="1" from="description">Phone Types</note>
+        <target>Типы телефона</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Phone-Types-Dlg" datatype="html">
+        <source>Phone Types dlg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">23,18</context>
+        </context-group>
+        <note priority="1" from="description">Phone Types</note>
+        <target>Типы телефона DLG</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Phones" datatype="html">
+        <source>Phones</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">25,18</context>
+        </context-group>
+        <note priority="1" from="description">Phones</note>
+        <target>Телефоны</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Phones-Dlg" datatype="html">
+        <source>Phones dlg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">26,18</context>
+        </context-group>
+        <note priority="1" from="description">Phones</note>
+        <target>Телефоны DLG</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Enterprises" datatype="html">
+        <source>Enterprises</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">28,18</context>
+        </context-group>
+        <note priority="1" from="description">Enterprises</note>
+        <target>Предприятия</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Enterprises-Dlg" datatype="html">
+        <source>Enterprises dlg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">29,18</context>
+        </context-group>
+        <note priority="1" from="description">Enterprises</note>
+        <target>Предприятия DLG</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Divisions" datatype="html">
+        <source>Divisions</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">31,18</context>
+        </context-group>
+        <note priority="1" from="description">Divisions</note>
+        <target>Подразделения</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Divisions-Dlg" datatype="html">
+        <source>Divisions dlg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">32,18</context>
+        </context-group>
+        <note priority="1" from="description">Divisions</note>
+        <target>Подразделения DLG</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Employees" datatype="html">
+        <source>Employees</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">34,18</context>
+        </context-group>
+        <note priority="1" from="description">Employees</note>
+        <target>Сотрудники</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Employees-Dlg" datatype="html">
+        <source>Employees dlg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">35,18</context>
+        </context-group>
+        <note priority="1" from="description">Employees</note>
+        <target>Сотрудники DLG</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Features" datatype="html">
+        <source>Features</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">37,18</context>
+        </context-group>
+        <note priority="1" from="description">Features</note>
+        <target>Функции</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Feature-Sample" datatype="html">
+        <source>Feature Sample</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">38,18</context>
+        </context-group>
+        <note priority="1" from="description">Feature Sample</note>
+        <target>Образец функции</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Admin" datatype="html">
+        <source>Admin</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">40,18</context>
+        </context-group>
+        <note priority="1" from="description">Admin</note>
+        <target>Администратор</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Models" datatype="html">
+        <source>Models</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">42,18</context>
+        </context-group>
+        <note priority="1" from="description">Models</note>
+        <target>Модели</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Models-Dlg" datatype="html">
+        <source>Models dlg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">43,18</context>
+        </context-group>
+        <note priority="1" from="description">Models dlg</note>
+        <target>Модели DLG</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Roles" datatype="html">
+        <source>Roles</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">45,18</context>
+        </context-group>
+        <note priority="1" from="description">Roles</note>
+        <target>Роли</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Roles-Dlg" datatype="html">
+        <source>Roles dlg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">46,18</context>
+        </context-group>
+        <note priority="1" from="description">Roles dlg</note>
+        <target>Роли Dlg</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Users" datatype="html">
+        <source>Users</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">48,18</context>
+        </context-group>
+        <note priority="1" from="description">Users</note>
+        <target>Пользователи</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Users-Dlg" datatype="html">
+        <source>Users dlg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">49,18</context>
+        </context-group>
+        <note priority="1" from="description">Users dlg</note>
+        <target>Пользователи DLG</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Sign-in" datatype="html">
+        <source>Sign in</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">51,18</context>
+        </context-group>
+        <note priority="1" from="description">Sign in</note>
+        <target>Войти</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Sign-out" datatype="html">
+        <source>Sign-out</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">52,18</context>
+        </context-group>
+        <note priority="1" from="description">Sign out</note>
+        <target>Выход</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Registration" datatype="html">
+        <source>Registration</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">53,18</context>
+        </context-group>
+        <note priority="1" from="description">Registration</note>
+        <target>Регистрация</target>
+      </trans-unit>
+      <trans-unit id="AppComponent.Change-Password" datatype="html">
+        <source>Change Password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <note priority="1" from="description">Change Password</note>
+        <target>Изменить пароль</target>
+      </trans-unit>
       <trans-unit id="Cancel.Cancel" datatype="html">
         <source>Cancel</source>
         <context-group purpose="location">
@@ -8346,6 +8562,60 @@
         <note priority="1" from="description">Not all masters have been set</note>
         <target>Не все мастера были установлены</target>
       </trans-unit>
+      <trans-unit id="PhbkEnterpriseViewLformComponent.caption" datatype="html">
+        <source>Enterprises</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/phbk-enterprise-view/lform/phbk-enterprise-view-lform.component.ts</context>
+          <context context-type="linenumber">49,48</context>
+        </context-group>
+        <note priority="1" from="description">Enterprises</note>
+        <target>Предприятия</target>
+      </trans-unit>
+      <trans-unit id="PhbkEnterpriseViewLformComponent.update" datatype="html">
+        <source>Modify Item</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/phbk-enterprise-view/lform/phbk-enterprise-view-lform.component.ts</context>
+          <context context-type="linenumber">50,48</context>
+        </context-group>
+        <note priority="1" from="description">Modify Item</note>
+        <target>Изменить элемент</target>
+      </trans-unit>
+      <trans-unit id="PhbkEnterpriseViewLformComponent.delete" datatype="html">
+        <source>Delete Item</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/phbk-enterprise-view/lform/phbk-enterprise-view-lform.component.ts</context>
+          <context context-type="linenumber">51,48</context>
+        </context-group>
+        <note priority="1" from="description">Delete Item</note>
+        <target>Удалить пункт</target>
+      </trans-unit>
+      <trans-unit id="PhbkEnterpriseViewLformComponent.view" datatype="html">
+        <source>View Item</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/phbk-enterprise-view/lform/phbk-enterprise-view-lform.component.ts</context>
+          <context context-type="linenumber">52,48</context>
+        </context-group>
+        <note priority="1" from="description">View Item</note>
+        <target>Просмотреть элемент</target>
+      </trans-unit>
+      <trans-unit id="PhbkEnterpriseViewLformComponent.add" datatype="html">
+        <source>Add Item</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/phbk-enterprise-view/lform/phbk-enterprise-view-lform.component.ts</context>
+          <context context-type="linenumber">53,48</context>
+        </context-group>
+        <note priority="1" from="description">Add Item</note>
+        <target>Добавить элемент</target>
+      </trans-unit>
+      <trans-unit id="PhbkEnterpriseViewLformComponent.deletesel" datatype="html">
+        <source>Delete Selected</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/phbk-enterprise-view/lform/phbk-enterprise-view-lform.component.ts</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <note priority="1" from="description">Delete Selected</note>
+        <target>Удалить выбранное</target>
+      </trans-unit>
       <trans-unit id="rdllzPhbkEnterpriseView.PhbkDivisionView" datatype="html">
         <source>Divisions</source>
         <context-group purpose="location">
@@ -9109,6 +9379,60 @@
         </context-group>
         <note priority="1" from="description">Not all masters have been set</note>
         <target>Не все мастера были установлены</target>
+      </trans-unit>
+      <trans-unit id="PhbkPhoneTypeViewLformComponent.caption" datatype="html">
+        <source>Phone Types</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/phbk-phone-type-view/lform/phbk-phone-type-view-lform.component.ts</context>
+          <context context-type="linenumber">49,48</context>
+        </context-group>
+        <note priority="1" from="description">Phone Types</note>
+        <target>Типы телефона</target>
+      </trans-unit>
+      <trans-unit id="PhbkPhoneTypeViewLformComponent.update" datatype="html">
+        <source>Modify Item</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/phbk-phone-type-view/lform/phbk-phone-type-view-lform.component.ts</context>
+          <context context-type="linenumber">50,48</context>
+        </context-group>
+        <note priority="1" from="description">Modify Item</note>
+        <target>Изменить элемент</target>
+      </trans-unit>
+      <trans-unit id="PhbkPhoneTypeViewLformComponent.delete" datatype="html">
+        <source>Delete Item</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/phbk-phone-type-view/lform/phbk-phone-type-view-lform.component.ts</context>
+          <context context-type="linenumber">51,48</context>
+        </context-group>
+        <note priority="1" from="description">Delete Item</note>
+        <target>Удалить пункт</target>
+      </trans-unit>
+      <trans-unit id="PhbkPhoneTypeViewLformComponent.view" datatype="html">
+        <source>View Item</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/phbk-phone-type-view/lform/phbk-phone-type-view-lform.component.ts</context>
+          <context context-type="linenumber">52,48</context>
+        </context-group>
+        <note priority="1" from="description">View Item</note>
+        <target>Просмотреть элемент</target>
+      </trans-unit>
+      <trans-unit id="PhbkPhoneTypeViewLformComponent.add" datatype="html">
+        <source>Add Item</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/phbk-phone-type-view/lform/phbk-phone-type-view-lform.component.ts</context>
+          <context context-type="linenumber">53,48</context>
+        </context-group>
+        <note priority="1" from="description">Add Item</note>
+        <target>Добавить элемент</target>
+      </trans-unit>
+      <trans-unit id="PhbkPhoneTypeViewLformComponent.deletesel" datatype="html">
+        <source>Delete Selected</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/phbk-phone-type-view/lform/phbk-phone-type-view-lform.component.ts</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <note priority="1" from="description">Delete Selected</note>
+        <target>Удалить выбранное</target>
       </trans-unit>
       <trans-unit id="rdllzPhbkPhoneTypeView.PhbkPhoneView" datatype="html">
         <source>Phones</source>
@@ -11427,6 +11751,42 @@
         <note priority="1" from="description">Home Page</note>
         <target>Домашняя страница</target>
       </trans-unit>
+      <trans-unit id=".To-activate-security" datatype="html">
+        <source>To activate security, register as a user</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/app-glbl-home/app-glbl-home.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">To activate security</note>
+        <target>Чтобы активировать безопасность, зарегистрируйтесь как пользователь</target>
+      </trans-unit>
+      <trans-unit id=".After" datatype="html">
+        <source>After</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/app-glbl-home/app-glbl-home.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">After</note>
+        <target>После</target>
+      </trans-unit>
+      <trans-unit id=".Login as admin" datatype="html">
+        <source>Login as admin</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/app-glbl-home/app-glbl-home.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description">Login as admin</note>
+        <target>Войдите как администратор</target>
+      </trans-unit>
+      <trans-unit id=".Login-as-guest" datatype="html">
+        <source>Login as guest</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/app-glbl-home/app-glbl-home.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <note priority="1" from="description">Login as guest</note>
+        <target>Войдите как гость</target>
+      </trans-unit>
       <trans-unit id=".User-name-label" datatype="html">
         <source>User name</source>
         <context-group purpose="location">
@@ -11914,6 +12274,15 @@
         </context-group>
         <note priority="1" from="description">Icorrect date format</note>
         <target>Формат даты ICRECT</target>
+      </trans-unit>
+      <trans-unit id="AppGlblSettingsService.Access-denied" datatype="html">
+        <source>Access denied</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/services/app-glbl-settings.service.ts</context>
+          <context context-type="linenumber">273</context>
+        </context-group>
+        <note priority="1" from="description">Access denied</note>
+        <target>В доступе отказано</target>
       </trans-unit>
     </body>
   </file>

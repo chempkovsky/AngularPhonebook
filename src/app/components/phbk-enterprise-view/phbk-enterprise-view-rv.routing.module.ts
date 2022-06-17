@@ -66,7 +66,7 @@ const routes: Routes = [
         // outlet: 'oltnmPhbkEnterpriseView',
         path: 'oltnmPhbkEnterpriseView2PhbkDivisionView/:hf102', 
         loadChildren: () => import('./../phbk-division-view/phbk-division-view-rl.routing.module').then(m => m.PhbkDivisionViewRlRoutingModule),
-        data: {  isdtl: true, vn: 'PhbkDivisionView', va: 'l', ms: true,  /* oltn: 'oltnmPhbkEnterpriseView', */ np: '', fh: 2, mh: 10, sf: true, title: rvllzPhbkEnterpriseView['ListPhbkDivisionView'], hf: 'hf102',  dp: 2, uid: '548b74af78b84226a89446ab827c82af' },
+        data: {  isdtl: true, vn: 'PhbkDivisionView', va: 'l', ms: true,  /* oltn: 'oltnmPhbkEnterpriseView', */ np: '', fh: 2, mh: 10, sf: true, title: rvllzPhbkEnterpriseView['ListPhbkDivisionView'], hf: 'hf102',  dp: 2, uid: 'f2f309087c7d41e88226dd349eafd418' },
         canActivate: [AppGlblSettingsServiceActivator],
     },
 
