@@ -862,7 +862,12 @@
 - В терминах EntityFramework. **ViewModel** для заданной Entity - это подмножество полей данной Entity и подмножество полей прямых и непрямых мастер Entities.
   - Что такое прямой и непрямой мастер. Пусть таблица **T1** имеет foreign key на таблицу **T2**. Пусть таблица **T2** имеет foreign key на таблицу **T3**. Будем говорить, что таблица **T2** является **прямым мастером** для таблицы **T1**. Будем говорить, что таблица **T3** является **непрямым мастером** для таблицы **T1**.
 - В терминах Sql. **ViewModel** для заданной таблицы - это подмножество полей данной таблицы и подмножество полей прямых и непрямых мастер таблиц. Т.е. **ViewModel** - это частный случай **Sql View** для заданной таблицы и мастер таблиц (прямых и непрямых), которые можно получить по **foreign key**-цепочкам.
-- Все объявленные в приложении [ViewModel-классы](https://github.com/chempkovsky/PhonebookSolution/tree/master/PhdctView) WebApi-проекта
+- Все объявленные в приложении для первого WebApi-подпроекта
+  - [ViewModel-классы телефонного справочника](https://github.com/chempkovsky/PhonebookSolution/tree/master/PhBkViews/PhBk)
+  - [ViewModel-классы прав доступа](https://github.com/chempkovsky/PhonebookSolution/tree/master/PhBkViews/Auth)
+  - [ViewModel-классы регистрации и входа в приложение](https://github.com/chempkovsky/PhonebookSolution/tree/master/PhBkViews/AspNetReg)
+- Все объявленные в приложении для второго WebApi-подпроекта
+  - [ViewModel-классы Lookup ресурса](https://github.com/chempkovsky/PhonebookSolution/tree/master/LpPhBkViews/PhBk)
 - Все объявленные в приложении ViewModel-интерфейсы Angular-проекты
   - [components/aspnetrole-view/interfaces](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/aspnetrole-view/interfaces)
   - [components/aspnetrole-view/interfaces](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/aspnetrole-view/interfaces)
