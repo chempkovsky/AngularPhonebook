@@ -264,7 +264,7 @@
 
 - появится форма для входа в систему
   - Введите `Admin@gmail.com` и пароль `5Admin@gmail.com`
-  - . Это показано на изображении 12
+  - Это показано на изображении 12
 <details>
   <summary>Показать изображение 12</summary>
 
@@ -277,28 +277,21 @@
 </details>
 
 
-### Вход или Регистрация
-- Чтобы войти или зарегистрироваться в системе необходимо воспользоваться пунктами меню в верхнем правом углу. Это показано на изображении 5
-<details>
-  <summary>Показать изображение 5</summary>
+### После входа как Admin
+- Убедитесь, что `Admin@gmail.com`(`5Admin@gmail.com`) имеет все права на все ресурсы. Это показано на изображении 13
 
-  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn005.png)
+<details>
+  <summary>Показать изображение 13</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk21.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk22.png)
+
 </details>
 
-- К примеру на изображении 6 показана форма регистрации нового пользователя в системе
-<details>
-  <summary>Показать изображение 6</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn006.png)
-</details>
-
-### После входа или регистрации
-- После входа или регистрации в верхнем правом углу появится имя пользователя и некоторые пункты меню станут доступными (см. изображение 7)
-<details>
-  <summary>Показать изображение 7</summary>
-
-  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn007.png)
-</details>
 
 ### Почему новый пользователь уже имеет права
 - Администратор еще не присвоил никаких прав для вновь созданного пользователя и тем не менее он(пользователь) уже получил доступ к системным ресурсам. 
