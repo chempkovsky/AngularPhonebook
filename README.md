@@ -88,7 +88,7 @@
   - Запрещение или разрешение доступа к Web-страницам
    - Реализация "безопасности" на клиентской стороне, носит косметический характер и только для удобства пользователя
    - **Удобство пользователя означает:** страница открылась, а данных на странице нету, т.к. сервер отказал в данных. Чтобы такого не происходило, ссылки на страницы с запрещенными данными недоступны.
-- [LookUp Resources]
+- LookUp Resources
   - [Подразделений](https://github.com/chempkovsky/PhonebookSolution/blob/master/LpPhBkContext/PhBk/LpPhnPhBkContext.cs)
   - [Сотрудников](https://github.com/chempkovsky/PhonebookSolution/blob/master/LpPhBkContext/PhBk/LpEmpPhBkContext.cs)
   - [Телефонов](https://github.com/chempkovsky/PhonebookSolution/blob/master/LpPhBkContext/PhBk/LpPhnPhBkContext.cs)
