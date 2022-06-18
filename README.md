@@ -254,11 +254,11 @@
 <details>
   <summary>Показать изображение 11</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk15.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk17.png)
 
 - или
 
-  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk16.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk18.png)
 
 </details>
 
@@ -268,11 +268,11 @@
 <details>
   <summary>Показать изображение 12</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk17.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk19.png)
 
 - или
 
-  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk18.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk20.png)
 
 </details>
 
