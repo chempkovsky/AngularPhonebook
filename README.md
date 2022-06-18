@@ -2,7 +2,7 @@
 ## AngularPhonebook
 - Demo - **телефонный справочник**
 - [См. Пошаговые инструкции создания данного приложения](https://github.com/chempkovsky/CS82ANGULAR/wiki)
-- [docker compose файл для mssql](#Docker-compose-используя-Docker-hub)
+- [ Docker compose файл для MsSql ](#docker-compose-файл-для-MsSql)
 - Если вы освоились с [CS82ANGULAR](https://github.com/chempkovsky/CS82ANGULAR) средством, то создание такого приложения потребует порядка 8 часов!!!
   - Создание Docker образов еще два или три часа (включая тестирование).
 - Если попытаться написать руками такое приложение, то это отнимет порядка двух-трех месяцев!!!
@@ -1140,3 +1140,170 @@
  <a mat-list-item [routerLink]="['RDLPhdctEmployeeView']" routerLinkActive="active">Сотрудники (Dlg)</a>
 ````
 
+## Docker compose файл для MsSql
+- создайте папку на диске 
+- сохраните в паку `docker-compose.yml`-файл с содержанием как приведено ниже
+
+<details>
+  <summary>Показать изображение docker-compose.yml</summary>
+
+````
+services:
+  pbdb:
+    image: "mcr.microsoft.com/mssql/server:2019-latest"
+    hostname: "pbdb"
+    expose:
+      - "1433"
+#    ports:
+#      - "1433:1433"
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "myPss@wrd"
+    healthcheck:
+      test: /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "$${SA_PASSWORD}" -Q "SELECT 1" -b -o /dev/null
+      interval: 10s
+      timeout: 3s
+      retries: 10
+      start_period: 10s
+  pbrabbit:
+    image: "chempkovsky/rabbitmq-phn-bk:latest"
+    hostname: "pbrabbit"
+    environment:
+      RABBITMQ_CONFIG_FILE: '/etc/rabbitmq/rabbitmq.conf'
+    expose:
+      - "5672"
+    healthcheck:
+      test: rabbitmq-diagnostics -q ping
+      interval: 30s
+      timeout: 30s
+      retries: 3
+      start_period: 10s    
+#    ports:
+#      - 15672:15672
+  webapiphnlkup:
+    image: "chempkovsky/webapi-phn-lkup:latest"
+    hostname: "webapiphnlkup"
+    environment:
+      ConnectionStrings:LpPhnPhBkConnection: "Data Source=pbdb;Initial Catalog=LpPhnPhBkDbDef;Persist Security Info=True;User ID=sa;Password=myPss@wrd" 
+      ConnectionStrings:LpEmpPhBkConnection: "Data Source=pbdb;Initial Catalog=LpEmpPhBkDbDef;Persist Security Info=True;User ID=sa;Password=myPss@wrd" 
+      ConnectionStrings:LpPhBkConnection: "Data Source=pbdb;Initial Catalog=LpPhBkDbDef;Persist Security Info=True;User ID=sa;Password=myPss@wrd" 
+      JWT:ValidAudience: "PhBkAudience" 
+      JWT:ValidIssuer: "PhBkIssuer" 
+      JWT:Secret": "JWTAuthenticationHIGHsecuredPasswordVVVp1OH7Xzyr" 
+      PhbkDivisionViewExtForLkUpConf:HostName: "pbrabbit" 
+      PhbkDivisionViewExtForLkUpConf:Username: "admin" 
+      PhbkDivisionViewExtForLkUpConf:Password: "admin" 
+      PhbkDivisionViewExtForLkUpConf:VirtualHostName: "phbkhost" 
+      PhbkDivisionViewExtForLkUpConf:ClusterIpAddresses: null
+      PhbkEmployeeViewExtForLkUpConf:HostName: "pbrabbit" 
+      PhbkEmployeeViewExtForLkUpConf:Username: "admin" 
+      PhbkEmployeeViewExtForLkUpConf:Password: "admin" 
+      PhbkEmployeeViewExtForLkUpConf:VirtualHostName: "phbkhost" 
+      PhbkEmployeeViewExtForLkUpConf:ClusterIpAddresses: null
+      PhbkPhoneViewExtForLkUpConf:HostName: "pbrabbit" 
+      PhbkPhoneViewExtForLkUpConf:Username: "admin" 
+      PhbkPhoneViewExtForLkUpConf:Password: "admin" 
+      PhbkPhoneViewExtForLkUpConf:VirtualHostName: "phbkhost" 
+      PhbkPhoneViewExtForLkUpConf:ClusterIpAddresses: null
+    links:
+      - pbdb
+      - pbrabbit
+    ports:
+      - 91:80
+    depends_on:
+      pbdb:
+        condition: service_healthy
+      pbrabbit:
+        condition: service_healthy
+  webapiphnbk:
+    image: "chempkovsky/webapi-phn-bk:latest"
+    hostname: "webapiphnbk"
+    environment:
+      ConnectionStrings:PhBkConnection: "Data Source=pbdb;Initial Catalog=PhBkDbDef;Persist Security Info=True;User ID=sa;Password=myPss@wrd" 
+      ConnectionStrings:AuthConnection: "Data Source=pbdb;Initial Catalog=PhBkDbAuth;Persist Security Info=True;User ID=sa;Password=myPss@wrd" 
+      ConnectionStrings:AspNetRegConnection: "Data Source=pbdb;Initial Catalog=PhBkAspNet;Persist Security Info=True;User ID=sa;Password=myPss@wrd" 
+      JWT:ValidAudience: "PhBkAudience" 
+      JWT:ValidIssuer: "PhBkIssuer" 
+      JWT:Secret: "JWTAuthenticationHIGHsecuredPasswordVVVp1OH7Xzyr" 
+      PhbkDivisionViewExtForLkUpConf:HostName: "pbrabbit" 
+      PhbkDivisionViewExtForLkUpConf:Username: "admin" 
+      PhbkDivisionViewExtForLkUpConf:Password: "admin" 
+      PhbkDivisionViewExtForLkUpConf:VirtualHostName: "phbkhost" 
+      PhbkDivisionViewExtForLkUpConf:ClusterIpAddresses: null
+      PhbkEmployeeViewExtForLkUpConf:HostName: "pbrabbit" 
+      PhbkEmployeeViewExtForLkUpConf:Username: "admin" 
+      PhbkEmployeeViewExtForLkUpConf:Password: "admin" 
+      PhbkEmployeeViewExtForLkUpConf:VirtualHostName: "phbkhost" 
+      PhbkEmployeeViewExtForLkUpConf:ClusterIpAddresses: null
+      PhbkPhoneViewExtForLkUpConf:HostName: "pbrabbit" 
+      PhbkPhoneViewExtForLkUpConf:Username: "admin" 
+      PhbkPhoneViewExtForLkUpConf:Password: "admin" 
+      PhbkPhoneViewExtForLkUpConf:VirtualHostName: "phbkhost" 
+      PhbkPhoneViewExtForLkUpConf:ClusterIpAddresses: null
+    links:
+      - pbdb
+      - pbrabbit
+    ports:
+      - 92:80
+    depends_on:
+      pbdb:
+        condition: service_healthy
+      pbrabbit:
+        condition: service_healthy
+      webapiphnlkup:
+        condition: service_started
+  angularphnbk:
+    image: "chempkovsky/angular-phn-bk:latest"
+    environment:
+      PHNLP_URL: "http://localhost:91/"
+      EMPLP_URL: "http://localhost:91/"
+      DIVLP_URL: "http://localhost:91/"
+      WA_URL: "http://localhost:92/" 
+      SEC_URL: "http://localhost:92/" 
+      PERM_URL: "http://localhost:92/" 
+    ports:
+      - 93:80
+    depends_on:
+      pbdb:
+        condition: service_healthy
+      pbrabbit:
+        condition: service_healthy
+      webapiphnlkup:
+        condition: service_started
+      webapiphnbk:
+        condition: service_started
+
+````
+</details>
+
+- Запустите `Command Prompt` и сделайте вашу папку текущей
+- Выполните команду для старта приложения:
+
+````
+docker-compose -f "docker-compose.yml" up -d
+````
+
+В браузере перейдите к URL=`http://localhost:93/`
+
+- Выполните команду для удаления приложения
+
+````
+docker-compose -f "docker-compose.yml" down
+````
+
+После **САМОГО первого входа** как Admin и перехода к пунктам меню `Предприятий, Сотрудников, ...` возможно вы получите сообщение
+
+````
+Доступ запрещен
+````
+
+- Это связано с тем, что при первом запросе к вебсервисам предметной области начинают создаваться и **наполняться** Базы данных:
+  - Оснавная
+  - Три базы Ресурсов поиска
+  - AspNet
+  - База `Управления правами пользователя`
+
+- Покликайте пункты меню, с промежутком в 5-10 секунд:
+  - `Телефоны` 
+  - потом `Телефоны DLg`
+  - опять `Телефоны` 
