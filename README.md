@@ -683,7 +683,7 @@
 - Это показано на изображении 36
 
 <details>
-  <summary>Показать изображение 35</summary>
+  <summary>Показать изображение 36</summary>
 
   ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk65.png)
 
@@ -693,21 +693,6 @@
 
 </details>
 
-
-- Выберите из списка `Peterson21`
-- Кликните `Применить фильтр`
-- Это показано на изображении 36
-
-<details>
-  <summary>Показать изображение 35</summary>
-
-  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk65.png)
-
-- или
-
-  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk66.png)
-
-</details>
 
 
 - Получим результат
