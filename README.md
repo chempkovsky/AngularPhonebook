@@ -3,7 +3,7 @@
 - Demo - **телефонный справочник**
 - [См. Пошаговые инструкции создания данного приложенияъ](https://github.com/chempkovsky/CS82ANGULAR/wiki)
 - [docker compose файл для mssql](#Docker-compose-используя-Docker-hub)
-- Если вы освоились с (CS82ANGULAR)[https://github.com/chempkovsky/CS82ANGULAR] средством, то создание такого приложения потребует порядка 8 часов!!!
+- Если вы освоились с [CS82ANGULAR](https://github.com/chempkovsky/CS82ANGULAR) средством, то создание такого приложения потребует порядка 8 часов!!!
   - Создание Docker образов еще два или три часа (включая тестирование).
 
 ### [ Модули ](#Модули)
