@@ -15,6 +15,9 @@
 - #### [ Переключение языков ](#Переключение-языков)
 - #### [ Несанкционированный доступ ](#Несанкционированный-доступ)
 - #### [ Регистрация ](#Регистрация)
+- #### [ Выход из приложения ](#Выход-из-приложения)
+- #### [ Войти как Admin ](#Войти-как-Admin)
+
 - #### [ Вход или Регистрация ](#Вход-или-Регистрация)
 - #### [ После входа или регистрации ](#После-входа-или-регистрации)
 - #### [ Почему новый пользователь уже имеет права ](#Почему-новый-пользователь-уже-имеет-права)
@@ -136,7 +139,7 @@
 - Каждый пункт меню предъявляется парой [Как упоминалось выше, решение содержит два приложения](#Интерфейс-пользователя)
 
 ### Переключение языков
-- Кликните на шестеренку в верхнем правом углу страницы и выберите язык 
+- Кликните шестеренку в верхнем правом углу страницы и выберите язык 
 <details>
   <summary>Показать изображение</summary>
 
@@ -161,7 +164,7 @@
 
 
 ### Регистрация
-- Кликните на шестеренку в верхнем правом углу страницы и выберите язык "Регистрация". Это показано на изображении 5
+- Кликните шестеренку в верхнем правом углу страницы и выберите язык "Регистрация". Это показано на изображении 5
 
 <details>
   <summary>Показать изображение 5</summary>
@@ -203,7 +206,7 @@
 - кликните `Типы телефона` и убедитесь, что `z@gmail.com`-пользователь не имеет прав. Это показано на изображении 8
 
 <details>
-  <summary>Показать изображение 6</summary>
+  <summary>Показать изображение 8</summary>
 
   ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk11.png)
 
@@ -213,6 +216,65 @@
 
 </details>
 
+### Выход из приложения
+- Кликните шестеренку в верхнем правом углу страницы и выберите язык "Регистрация". Это показано на изображении 9
+
+<details>
+  <summary>Показать изображение 9</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk13.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk14.png)
+
+</details>
+
+- Появится блок диалога для подтверждения операции. Это показано на изображении 10
+  - кликните `OK`
+
+<details>
+  <summary>Показать изображение 10</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk13.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk14.png)
+
+</details>
+
+
+### Войти как Admin
+- **Замечание:** В приложении создаются два пользователя
+  - `Admin@gmail.com` с паролем `5Admin@gmail.com`
+  - `Guest@gmail.com` с паролем `5Guest@gmail.com`
+- Войдите в приложение как пользователь `Admin@gmail.com` с паролем `5Admin@gmail.com`. Для этого кликните шестеренку в верхнем правом углу и выберите "Войти". Это показано на изображении 11
+
+<details>
+  <summary>Показать изображение 11</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk15.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk16.png)
+
+</details>
+
+- появится форма для входа в систему
+  - Введите `Admin@gmail.com` и пароль `5Admin@gmail.com`
+  - . Это показано на изображении 12
+<details>
+  <summary>Показать изображение 12</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk17.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk18.png)
+
+</details>
 
 
 ### Вход или Регистрация
