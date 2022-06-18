@@ -25,6 +25,8 @@
 - #### [ Валидация ](#Валидация)
 - #### [ Автозаполнение ](#Автозаполнение)
 - #### [ Добавить роль пользователю ](#Добавить-роль-пользователю)
+- #### [ Фильтрация с использованием Ресурсов поиска ](#Фильтрация-с-использованием-Ресурсов-поиска)
+- #### [ Фильтрация Full Scan ](#Фильтрация-Full-Scan)
 
 ### [ Как быстро понять структуру и компоненты Angular проекта ](#Как-быстро-понять-структуру-и-компоненты-Angular-проекта)
 - #### [ Папка shared ](#Папка-shared)
@@ -77,15 +79,19 @@
 **"Зарегистрированные пользователи"** и **"Сотрудники подразделения"** - это разные сущности, которые находятся в отдельных базах и ни как не связаны между собой.
 
 ## Базы данных приложения
-- [телефонный справочник](https://github.com/chempkovsky/PhonebookSolution/blob/master/PhDictContext/PhDct/PhdctDbContext.cs)
-- [Identity](https://github.com/chempkovsky/PhonebookSolution/blob/master/PhdctMsWebApp/AspNetRegistration/AspNetRegistrationDbContext.cs)
+- [телефонный справочник](https://github.com/chempkovsky/PhonebookSolution/blob/master/PhBkContext/PhBk/PhbkDbContext.cs)
+- [Identity](https://github.com/chempkovsky/PhonebookSolution/blob/master/PhBkContext/AspNetReg/AspNetRegistrationDbContext.cs)
    - Pеализации AspNet Identity 
    - Безопасность на серверрной стороне (Role-based security). Защита сервисов от несанкционированного использования.
-- [Управление правами пользователя](https://github.com/chempkovsky/PhonebookSolution/blob/master/PhDictContext/Auth/aspnetchckdbcontext.cs)
+- [Управление правами пользователя](https://github.com/chempkovsky/PhonebookSolution/blob/master/PhBkContext/Auth/aspnetchckdbcontext.cs)
   - Реализация безопасности на клиетской стороне (Angular модуль)
   - Запрещение или разрешение доступа к Web-страницам
    - Реализация "безопасности" на клиентской стороне, носит косметический характер и только для удобства пользователя
    - **Удобство пользователя означает:** страница открылась, а данных на странице нету, т.к. сервер отказал в данных. Чтобы такого не происходило, ссылки на страницы с запрещенными данными недоступны.
+- [LookUp Resources]
+  - [Подразделений](https://github.com/chempkovsky/PhonebookSolution/blob/master/LpPhBkContext/PhBk/LpPhnPhBkContext.cs)
+  - [Сотрудников](https://github.com/chempkovsky/PhonebookSolution/blob/master/LpPhBkContext/PhBk/LpEmpPhBkContext.cs)
+  - [Телефонов](https://github.com/chempkovsky/PhonebookSolution/blob/master/LpPhBkContext/PhBk/LpPhnPhBkContext.cs)
 
 ## Интерфейс пользователя
 - По факту **Angular модуль** состоит из двух приложений. Это сделано для демонстрации возможностей инструментария, который использовался для построения решения.
@@ -113,7 +119,7 @@
   
 ## Ленивая загрузка
 - **Замечание:** Плохо спроектированные и реализованные SPA приложения могут очень долго загружать первую станицу. Время расходуется на загрузку java-кода. 
-- **LazyLoading** решает эту проблему. В нашем случа именно этот подход и используется [см. главный модуль]( https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/app-routing.module.ts) и [см. один из дополнительных модулей](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/components/phdct-employee-view/phdct-employee-view-rl.routing.module.ts). 
+- **LazyLoading** решает эту проблему. В нашем случа именно этот подход и используется [см. главный модуль]( https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/app-routing.module.ts) и [см. один из дополнительных модулей](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/components/phbk-employee-view/phbk-employee-view-rl.routing.module.ts). 
 - Вообще говоря, данный подход позволяет строить не просто большие, но позволяет строить **огромные** приложения, которые по функционалу не уступают Decktop-приложениям.
 - **В сухом остатке**: В данном приложении каждая страница открывается очень быстро, вне зависимости от того, сколько этих страниц реализовано в приложении (или десять или сто или тысячи). А вот данные на страницу могут приходить с задержкой. Это зависит от того как загружен SQL-сервер, который находится позади WebApi-сервер. В нашем случае, это [BackEnd модуль](#Модули). 
 
@@ -653,6 +659,134 @@
 
 </details>
 
+### Фильтрация с использованием Ресурсов поиска
+- войдите в приложение как Admin
+  - `Admin@gmail.com` с паролем `5Admin@gmail.com`
+- кликните `Сотрудники`
+- В поле `Фамилия` начните печатать `Pete`
+- Это показано на изображении 35
+
+<details>
+  <summary>Показать изображение 35</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk63.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk64.png)
+
+</details>
+
+
+- Выберите из списка `Peterson21`
+- Кликните `Применить фильтр`
+- Это показано на изображении 36
+
+<details>
+  <summary>Показать изображение 35</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk65.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk66.png)
+
+</details>
+
+
+- Выберите из списка `Peterson21`
+- Кликните `Применить фильтр`
+- Это показано на изображении 36
+
+<details>
+  <summary>Показать изображение 35</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk65.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk66.png)
+
+</details>
+
+
+- Получим результат
+- Это показано на изображении 37
+
+<details>
+  <summary>Показать изображение 37</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk67.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk68.png)
+
+</details>
+
+
+### Фильтрация Full Scan
+- войдите в приложение как Admin
+  - `Admin@gmail.com` с паролем `5Admin@gmail.com`
+- кликните `Сотрудники`
+- Выберите `Полное сканирование`
+- Это показано на изображении 38
+
+<details>
+  <summary>Показать изображение 38</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk69.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk70.png)
+
+</details>
+
+
+- Пенал для фильтра изменится
+- Это показано на изображении 39
+
+<details>
+  <summary>Показать изображение 39</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk71.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk72.png)
+
+</details>
+
+- Выберите Поле фильтрации, оператор, и введите значение фильтра
+- Это показано на изображении 40
+
+<details>
+  <summary>Показать изображение 40</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk73.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk74.png)
+
+</details>
+
+
+
+- Результат применения фильтра
+- Это показано на изображении 41
+
+<details>
+  <summary>Показать изображение 41</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk75.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk76.png)
+
+</details>
 
 
 ## Как быстро понять структуру и компоненты Angular проекта
@@ -701,8 +835,8 @@
 - Существует **следующий феномен**: программист изучил всех все функции и параметры какой-либо компоненты и вес равно не понял как этой компонентой пользоваться. **Второй аспект этого феномена** состоит в том, что спустся некоторое время (это 30 дней) программист обязательно забудет, что он читал. Для борьбы с этим феноменом используется прием примера использования той или другой компоненты. Программист заглядывает в рабочий пример и у него все всплывает в памяти, включая информацию по атрибутам и функциям компоненты. Именно рабочий пример и запоминается. Сказанное выше можно переформулировать следующим образом: фраза "повторение -- мать учения" не является верной, но верной является фраза "применение -- мать учения". 
   - Чтобы посмотеть на **рабочий пример использования WebServiceFilter** и быстро схватить суть откройте любую **sform**-компоненту (search-form)
     - или [sform для aspnetmodel](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/aspnetmodel-view/sform)
-    - или [sform для employee](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/phdct-employee-view/sform)
-    - или [sform для phone](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/phdct-phone-view/sform)
+    - или [sform для employee](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/phbk-employee-view/sform)
+    - или [sform для phone](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/phbk-phone-view/sform)
 
 #### Папки components и services
 - Папки **components** и **services** имеют одинаковую вложенную структуру (см. изображение 41) и соответствуют всем прикладным компонета приложения.
@@ -725,14 +859,14 @@
   - [components/aspnetrole-view/interfaces](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/aspnetrole-view/interfaces)
   - [components/aspnetrole-view/interfaces](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/aspnetrole-view/interfaces)
   - ...
-  - [components/phdct-phone-view/interfaces/](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/phdct-phone-view/interfaces)
+  - [components/phbk-phone-view/interfaces/](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/phbk-phone-view/interfaces)
 
 ##### Сервисы для ViewModel
 - Заглянем в файл 
   - [services/aspnetmodel-view/aspnetmodel-view.service.ts](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/services/aspnetmodel-view/aspnetmodel-view.service.ts)
   - [services/aspnetrole-view/aspnetrole-view.service.ts](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/services/aspnetrole-view/aspnetrole-view.service.ts)
   - ...
-  - [services/phdct-phone-view/phdct-phone-view.service.ts](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/services/phdct-phone-view/phdct-phone-view.service.ts)
+  - [services/phbk-phone-view/phbk-phone-view.service.ts](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/services/phbk-phone-view/phbk-phone-view.service.ts)
   
  - Каждый сервис реализует методы, котрые говорят сами за себя
    - getwithfilter
@@ -747,7 +881,7 @@
   - [services/aspnetmodel-view/aspnetmodel-view-datasource.class.ts](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/services/aspnetmodel-view/aspnetmodel-view-datasource.class.ts)
   - [services/aspnetrole-view/aspnetrole-view-datasource.class.ts](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/services/aspnetrole-view/aspnetrole-view-datasource.class.ts)
   - ...
-  - [services/phdct-phone-view/phdct-phone-view-datasource.class.ts ](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/services/phdct-phone-view/phdct-phone-view-datasource.class.ts)
+  - [services/phbk-phone-view/phbk-phone-view-datasource.class.ts ](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/services/phbk-phone-view/phbk-phone-view-datasource.class.ts)
 - DataSource помогет реализовать [**master-detail**-функционал на уровне конролей](#Один-ко-многим-на-уровне-контролей-форм-редактирования) для форм добавить, удалить, обновить, и просмотреть
 
 ##### Sform для ViewModel
@@ -756,7 +890,7 @@
   - [components/aspnetmodel-view/sform](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/aspnetmodel-view/sform)
   - [components/aspnetrole-view/sform](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/aspnetrole-view/sform)
   - ...
-  - [components/phdct-phone-view/sform](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/phdct-phone-view/sform)
+  - [components/phbk-phone-view/sform](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/phbk-phone-view/sform)
 - Каждая Sform 
   - отображает фильтр поиска и таблицу результатов. 
   - Sform умееет посылать запрос к WebApi на получение списка по фильтру с заданной сортировкой. 
