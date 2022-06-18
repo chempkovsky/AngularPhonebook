@@ -200,6 +200,20 @@
 
 </details>
 
+- кликните `Типы телефона` и убедитесь, что `z@gmail.com`-пользователь не имеет прав. Это показано на изображении 8
+
+<details>
+  <summary>Показать изображение 6</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk11.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk12.png)
+
+</details>
+
+
 
 ### Вход или Регистрация
 - Чтобы войти или зарегистрироваться в системе необходимо воспользоваться пунктами меню в верхнем правом углу. Это показано на изображении 5
