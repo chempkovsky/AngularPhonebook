@@ -298,7 +298,7 @@
   - `Admin@gmail.com` с паролем `5Admin@gmail.com`
   - `Guest@gmail.com` с паролем `5Guest@gmail.com`
 - Войдите в приложение как пользователь `Guest@gmail.com` с паролем `5Guest@gmail.com`.
-- Убедитесь, что `Guest@gmail.com`(`5Guest@gmail.com`) имеет все права только на просмотр ресурсов. Это показано на изображении 14
+- Убедитесь, что `Guest@gmail.com`(`5Guest@gmail.com`) имеет права только на просмотр ресурсов. Это показано на изображении 14
 
 
 <details>
@@ -309,6 +309,20 @@
 - или
 
   ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk24.png)
+
+</details>
+
+
+- Убедитесь, что `Guest@gmail.com`(`5Guest@gmail.com`) не имеет прав на пункты меню `Администратор`. Это показано на изображении 15
+
+<details>
+  <summary>Показать изображение 14</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk25.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk26.png)
 
 </details>
 
