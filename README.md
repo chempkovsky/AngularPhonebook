@@ -120,9 +120,14 @@
 ## Стартовая страница приложения
 - при запуске приложения открывается главная страца приложения с пунктами меню разделенными на две ргуппы. Пункты меню предметной области и пункты меню администратора. Это показано на изображении 3.
 <details>
-  <summary>Показать изображение 3</summary>
+  <summary>Показать изображение </summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn003.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk01.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk02.png)
+
 </details>
 
 - Каждый пункт меню предъявляется парой [Как упоминалось выше, решение содержит два приложения](#Интерфейс-пользователя)
