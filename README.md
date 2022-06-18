@@ -231,11 +231,11 @@
 <details>
   <summary>Показать изображение 10</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk13.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk15.png)
 
 - или
 
-  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk14.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk16.png)
 
 </details>
 
