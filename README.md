@@ -26,7 +26,6 @@
 ### [ Фильтрация ](#Фильтрация)
 ### [ Сортировка ](#Сортировка)
 
-### [ Работа с проектом ](#Работа-с-проектом)
 ### [ Как быстро понять структуру и компоненты Angular проекта ](#Как-быстро-понять-структуру-и-компоненты-Angular-проекта)
 - #### [ Папка shared ](#Папка-shared)
   - #### [ Компонента WebServiceFilter ](#Компонента-WebServiceFilter)
@@ -378,57 +377,6 @@
 </details>
 
 
-## Работа с проектом
-### Angular часть
-```java
-      ng new AngularPhoneDictionary
-```
-потом
-```java
-      cd AngularPhoneDictionary
-```
-потом
-```java
-      ng add @angular/material
-```
-потом
-```java
-      npm i -s @angular/flex-layout @angular/cdk
-```
-потом
-Забрать данный проект c git и положить в папку src.
-Должно заработать.
-
-Какие флаги при создании проекта необходимы можно посмотреть [вот тут](https://github.com/chempkovsky/CS2ANGULAR/wiki/04-CREATING-PROJECTS-TO-START-DEVELOPMENT-for-(Material-UI)-or-(NG-BOOTSTRAP-and-Material-design-icons)-or-(NG-BOOTSTRAP-and-Awesome--icons))
-
-
-### C# часть
-Забрать проект с помощью VS2022 [вот тут](https://github.com/chempkovsky/PhonebookSolution).
-Обязательно поравить файл  https://github.com/chempkovsky/PhonebookSolution/blob/master/PhdctMsWebApp/appsettings.json
-
-### Чтобы согласовать оба проекта
-Чтобы согласовать http Angular и C# проектов необходимо заглянуть в [файл](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/shared/services/app-glbl-settings.service.ts) глобального сервиса и поменять в трех методах URL.
-
-````java
- public getWebApiPrefix(vwNm: string): string {
-        let reslt: string = '';
-        if(!(vwNm === null)) {
-            if(!(vwNm === null)) {
-                //
-                // here: defining url by ViewName
-                //
-                reslt = 'https://localhost:7229/';
-            }
-        }
-        return reslt;
-    } 
-    public getSecurityWebApiPrefix(): string {
-        return 'https://localhost:7229/';
-    } 
-    public getPermissionWebApiPrefix(): string {
-        return 'https://localhost:7229/';
-    }
-````
 
 ## Как быстро понять структуру и компоненты Angular проекта
 - Проект состоит из трех папок: components, services и shared. (Это показано на изображении 38).
