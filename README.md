@@ -27,6 +27,7 @@
 - #### [ Добавить роль пользователю ](#Добавить-роль-пользователю)
 - #### [ Фильтрация с использованием Ресурсов поиска ](#Фильтрация-с-использованием-Ресурсов-поиска)
 - #### [ Фильтрация Full Scan ](#Фильтрация-Full-Scan)
+- #### [ Features ](#Features)
 
 ### [ Как быстро понять структуру и компоненты Angular проекта ](#Как-быстро-понять-структуру-и-компоненты-Angular-проекта)
 - #### [ Папка shared ](#Папка-shared)
@@ -772,6 +773,25 @@
   ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk76.png)
 
 </details>
+
+### Features
+- Feature позволяет разместить на странице более одной таблицы
+- войдите в приложение как Admin
+  - `Admin@gmail.com` с паролем `5Admin@gmail.com`
+- Кликните `образец функций`
+- Это показано на изображении 42
+
+<details>
+  <summary>Показать изображение 42</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk77.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk78.png)
+
+</details>
+
 
 
 ## Как быстро понять структуру и компоненты Angular проекта
