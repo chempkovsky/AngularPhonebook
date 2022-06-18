@@ -162,7 +162,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 1</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn001.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn001.png)
 </details>
 
 - **Dialog-based интерфейс:** каждая функция предъявляется в виде блока диалога. Это показано на изображении 2
@@ -170,7 +170,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 2</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn002.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn002.png)
 </details>
 
 ### Стоимость производства
@@ -190,7 +190,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 3</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn003.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn003.png)
 </details>
 
 - Каждый пункт меню предъявляется парой [Как упоминалось выше, решение содержит два приложения](#Интерфейс-пользователя)
@@ -201,7 +201,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 4</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn004.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn004.png)
 </details>
 
 ### Вход или Регистрация
@@ -209,14 +209,14 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 5</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn005.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn005.png)
 </details>
 
 - К примеру на изображении 6 показана форма регистрации нового пользователя в системе
 <details>
   <summary>Показать изображение 6</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn006.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn006.png)
 </details>
 
 ### После входа или регистрации
@@ -224,7 +224,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 7</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn007.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn007.png)
 </details>
 
 ### Почему новый пользователь уже имеет права
@@ -243,20 +243,20 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 8</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn008.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn008.png)
 </details>
 
 <details>
   <summary>Показать изображение 9</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn009.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn009.png)
 </details>
 
 
 <details>
   <summary>Показать изображение 10</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn010.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn010.png)
 </details>
 
 - Можно изменить перечень ролей приложения и прав ролям (см. изображение 11, изображение 12, изображение 13, изображение 14, изображение 15)
@@ -264,32 +264,32 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 11</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn011.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn011.png)
 </details>
 
 <details>
   <summary>Показать изображение 12</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn012.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn012.png)
 </details>
 
 
 <details>
   <summary>Показать изображение 13</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn013.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn013.png)
 </details>
 
 <details>
   <summary>Показать изображение 14</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn014.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn014.png)
 </details>
 
 <details>
   <summary>Показать изображение 15</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn015.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn015.png)
 </details>
 
 - Присоединить роль к пользователю или убрать роль  (см. изображение 16, изображение 17)
@@ -297,19 +297,19 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 16</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn016.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn016.png)
 </details>
 
 <details>
   <summary>Показать изображение 17</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn017.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn017.png)
 </details>
 
 <details>
   <summary>Показать изображение 18</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn018.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn018.png)
 </details>
 
 
@@ -319,14 +319,14 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 19</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn019.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn019.png)
 </details>
 
 - получив список Подразделений. Выбираем подразделение для получения списка сотрудников по подразделению (см. изображение 20)
 <details>
   <summary>Показать изображение 20</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn020.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn020.png)
 </details>
 
 - получив список сотрудников. Выбираем сотрудника для получения списка телефонов (см. изображение 21)
@@ -334,14 +334,14 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 21</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn021.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn021.png)
 </details>
 
 - По сотруднику список телефонов (см. изображение 22)
 <details>
   <summary>Показать изображение 22</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn022.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn022.png)
 </details>
 
 ## Один ко многим на одной странице
@@ -351,11 +351,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 23, 24, 25</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn023.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn023.png)
   
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn024.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn024.png)
   
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn025.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn025.png)
 </details>
 
 
@@ -367,9 +367,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 26, 27</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn026.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn026.png)
   
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn027.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn027.png)
   
 </details>
 
@@ -380,9 +380,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 28, 29</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn028.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn028.png)
   
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn029.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn029.png)
   
 </details>
 
@@ -393,9 +393,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 30, 31</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn30.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn30.png)
   
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn31.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn31.png)
 </details>
 
 - **Замечание**: При изменении данных в мастер контроли, данные в детаил контролях сбрасываются. 
@@ -409,9 +409,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 32, 33</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn32.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn32.png)
   
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn33.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn33.png)
   
 </details>
 
@@ -420,7 +420,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 34</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn34.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn34.png)
 
 </details>
 
@@ -429,9 +429,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 35, 36</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn35.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn35.png)
   
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn36.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn36.png)
   
 </details>
 
@@ -440,7 +440,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 37</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn37.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn37.png)
   
 </details>
 
@@ -502,7 +502,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 38</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn38.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn38.png)
   
 </details>
 
@@ -511,7 +511,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 39</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn39.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn39.png)
   
 </details>
 
@@ -536,7 +536,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 40</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn40.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn40.png)
   
 </details>
 
@@ -553,7 +553,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 41</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn41.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn41.png)
   
 </details>
 
@@ -621,21 +621,21 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 42</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn42.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn42.png)
   
 </details>
 
 <details>
   <summary>Показать изображение 43</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn43.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn43.png)
   
 </details>
 
 <details>
   <summary>Показать изображение 44</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn44.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn44.png)
   
 </details>
 
@@ -660,14 +660,14 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 45</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn45.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn45.png)
   
 </details>
 
 <details>
   <summary>Показать изображение 46</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn46.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn46.png)
   
 </details>
 
@@ -689,21 +689,21 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <details>
   <summary>Показать изображение 47</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn47.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn47.png)
   
 </details>
 
 <details>
   <summary>Показать изображение 48</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn48.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn48.png)
   
 </details>
 
 <details>
   <summary>Показать изображение 49</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn49.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn49.png)
   
 </details>
 
@@ -1045,14 +1045,14 @@ docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=myPss@wrd" ^
 <details>
   <summary>Показать список приложений</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn50.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn50.png)
   
 </details>
 
 <details>
   <summary>Показать список образов</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn51.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn51.png)
   
 </details>
     
@@ -1105,7 +1105,7 @@ services:
 <details>
   <summary>Показать изображение 52</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn52.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn52.png)
 </details>
 
 ### Запуск docker compose
@@ -1130,7 +1130,7 @@ E:\Development>
 <details>
   <summary>Показать изображение 53</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn53.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn53.png)
 </details>
   
 ### Важное напоминание
@@ -1147,13 +1147,13 @@ E:\Development>
 <details>
   <summary>Показать изображение 54</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn54.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn54.png)
 </details>
 
 <details>
   <summary>Показать изображение 55</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn55.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn55.png)
 </details>
   
 - С таким паролем пользователь не будет зарегистрирован в приложении и будет выдана ошибка по поводу пароля не удовлетворяющего требованиям (необходимы буквы в верхнемт и нижнеи регистре, необходима цифра в пароле, и необходим небуквенный символ. К примеру, ```@```). Но важно не это. При попытке заригистрироваться будут созданы два базовых пользователя, **если они еще не созданы**:
@@ -1294,7 +1294,7 @@ host    all             all             all                 	scram-sha-256
   <details>
   <summary>Показать изображение 56</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn56.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn56.png)
 </details>
 
 - **Замечание:** Важно отметить, что WebApi и PostgreSql должны находиться **на разных сетевых ресурсах** при тестировании. 
@@ -1490,7 +1490,7 @@ docker run --name my-postgres -e POSTGRES_PASSWORD=myPss@wrd -p 5432:5432 -d pos
 <details>
   <summary>Показать изображение 57</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn57.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn57.png)
 </details>
 
 - Все предварительные проверки проведены и мы можем приступать к созданию compose.yml  
@@ -1562,7 +1562,7 @@ docker-compose -f "docker-pstgs-compose.yml" up -d --build
 <details>
   <summary>Показать изображение 1</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn59.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn59.png)
 </details>
   
 - Но как только, мы пытаемся выполнить **Refresh** средствами броузера, получаем 404 ошибку (см. изображение 60). 
@@ -1570,7 +1570,7 @@ docker-compose -f "docker-pstgs-compose.yml" up -d --build
 <details>
   <summary>Показать изображение 60</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn60.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn60.png)
 </details>
   
 - Последнее требует дополнительного конфигурирования **nginx**-сервера. Если конкретнее, то должен присутствовать фрагмент
@@ -1812,7 +1812,7 @@ net:
 <details>
   <summary>Показать изображение 58</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn58.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn58.png)
 </details>
 
 - **Шаг 5** Откроем порт для доступа к **MongoDB**
@@ -1846,7 +1846,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'rt'@'%' WITH GRANT OPTION;
 <details>
   <summary>Показать изображение 61</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/Imgs/Phn61.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/Phn61.png)
 </details>
   
 - После проведения тестов в виртуальной среде, все готово для создания docker образов.
