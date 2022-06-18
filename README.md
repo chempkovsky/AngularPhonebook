@@ -17,6 +17,8 @@
 - #### [ Регистрация ](#Регистрация)
 - #### [ Выход из приложения ](#Выход-из-приложения)
 - #### [ Войти как Admin ](#Войти-как-Admin)
+- #### [ После входа как Admin ](#После-входа-как-Admin)
+- #### [ После входа как Guest ](#После-входа-как-Guest)
 
 - #### [ Вход или Регистрация ](#Вход-или-Регистрация)
 - #### [ После входа или регистрации ](#После-входа-или-регистрации)
@@ -291,6 +293,24 @@
 
 </details>
 
+### После входа как Guest
+- **Замечание:** В приложении создаются два пользователя
+  - `Admin@gmail.com` с паролем `5Admin@gmail.com`
+  - `Guest@gmail.com` с паролем `5Guest@gmail.com`
+- Войдите в приложение как пользователь `Guest@gmail.com` с паролем `5Guest@gmail.com`.
+- Убедитесь, что `Guest@gmail.com`(`5Guest@gmail.com`) имеет все права только на просмотр ресурсов. Это показано на изображении 14
+
+
+<details>
+  <summary>Показать изображение 14</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk23.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk24.png)
+
+</details>
 
 
 ### Почему новый пользователь уже имеет права
