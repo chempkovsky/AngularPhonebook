@@ -20,6 +20,7 @@
 - #### [ После входа как Admin ](#После-входа-как-Admin)
 - #### [ После входа как Guest ](#После-входа-как-Guest)
 - #### [ Навигация от Master к Detail ](#Навигация-от-Master-к-Detail)
+- #### [ Один ко многим ](#Один-ко-многим)
 
 - #### [ Вход или Регистрация ](#Вход-или-Регистрация)
 - #### [ После входа или регистрации ](#После-входа-или-регистрации)
@@ -391,6 +392,26 @@
   ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk34.png)
 
 </details>
+
+
+### Один ко многим
+- войдите в приложение одним из пользователей
+  - `Admin@gmail.com` с паролем `5Admin@gmail.com`
+  - `Guest@gmail.com` с паролем `5Guest@gmail.com`
+
+- Убедитесь, что работает `Один ко многим`. Это показано на изображении 20
+
+<details>
+  <summary>Показать изображение 20</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk35.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk36.png)
+
+</details>
+
 
 
 ### Почему новый пользователь уже имеет права
