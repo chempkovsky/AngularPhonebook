@@ -378,6 +378,21 @@
 
 </details>
 
+- Убедитесь, что навигация заканчивается на телефонах. Это показано на изображении 19
+
+
+<details>
+  <summary>Показать изображение 19</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk33.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk34.png)
+
+</details>
+
+
 ### Почему новый пользователь уже имеет права
 - Администратор еще не присвоил никаких прав для вновь созданного пользователя и тем не менее он(пользователь) уже получил доступ к системным ресурсам. 
 - Чтобы ответить на данный вопрос необходимо обратиться к исходному коду [см. Register-метод](https://github.com/chempkovsky/PhonebookSolution/blob/master/PhdctMsWebApp/Controllers/accountcontroller.cs)
