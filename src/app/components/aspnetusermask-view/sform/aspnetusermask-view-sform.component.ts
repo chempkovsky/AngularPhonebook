@@ -54,7 +54,7 @@ class aspnetusermaskViewMtPgntrIntl implements MatPaginatorIntl {
 })
 export class AspnetusermaskViewSformComponent implements OnInit, AfterViewInit,  IEventEmitterPub, IItemHeightData {
 
-    @Input('caption') caption: string = $localize`User Masks@@AspnetusermaskViewSformComponent.caption:User Masks`;
+    @Input('caption') caption: string = $localize`:User Masks@@AspnetusermaskViewSformComponent.caption:User Masks`;
 
     clmnCptnsaspnetusermaskView: {[key:string]: string}  = {
         'userId': $localize`:User Id@@aspnetusermaskView.userId-Name:User Id`,

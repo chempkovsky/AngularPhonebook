@@ -54,7 +54,7 @@ class aspnetrolemaskViewMtPgntrIntl implements MatPaginatorIntl {
 })
 export class AspnetrolemaskViewSformComponent implements OnInit, AfterViewInit,  IEventEmitterPub, IItemHeightData {
 
-    @Input('caption') caption: string = $localize`Role Masks@@AspnetrolemaskViewSformComponent.caption:Role Masks`;
+    @Input('caption') caption: string = $localize`:Role Masks@@AspnetrolemaskViewSformComponent.caption:Role Masks`;
 
     clmnCptnsaspnetrolemaskView: {[key:string]: string}  = {
         'roleDescription': $localize`:Role Description@@aspnetrolemaskView.roleDescription-Name:Role Description`,

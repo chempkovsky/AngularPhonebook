@@ -66,7 +66,7 @@ class PhbkDivisionViewMtPgntrIntl implements MatPaginatorIntl {
 })
 export class PhbkDivisionViewSformComponent implements OnInit, AfterViewInit,  IEventEmitterPub, IItemHeightData {
 
-    @Input('caption') caption: string = $localize`Divisions@@PhbkDivisionViewSformComponent.caption:Divisions`;
+    @Input('caption') caption: string = $localize`:Divisions@@PhbkDivisionViewSformComponent.caption:Divisions`;
 
     clmnCptnsPhbkDivisionView: {[key:string]: string}  = {
         'divisionId': $localize`:Id of the Division@@PhbkDivisionView.divisionId-Name:Id of the Division`,

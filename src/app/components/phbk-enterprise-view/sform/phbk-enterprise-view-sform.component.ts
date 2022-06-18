@@ -54,7 +54,7 @@ class PhbkEnterpriseViewMtPgntrIntl implements MatPaginatorIntl {
 })
 export class PhbkEnterpriseViewSformComponent implements OnInit, AfterViewInit,  IEventEmitterPub, IItemHeightData {
 
-    @Input('caption') caption: string = $localize`Enterprises@@PhbkEnterpriseViewSformComponent.caption:Enterprises`;
+    @Input('caption') caption: string = $localize`:Enterprises@@PhbkEnterpriseViewSformComponent.caption:Enterprises`;
 
     clmnCptnsPhbkEnterpriseView: {[key:string]: string}  = {
         'entrprsId': $localize`:Id of the Enterprise@@PhbkEnterpriseView.entrprsId-Name:Id of the Enterprise`,

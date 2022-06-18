@@ -74,7 +74,7 @@ class PhbkEmployeeViewMtPgntrIntl implements MatPaginatorIntl {
 })
 export class PhbkEmployeeViewSformComponent implements OnInit, AfterViewInit,  IEventEmitterPub, IItemHeightData {
 
-    @Input('caption') caption: string = $localize`Employees@@PhbkEmployeeViewSformComponent.caption:Employees`;
+    @Input('caption') caption: string = $localize`:Employees@@PhbkEmployeeViewSformComponent.caption:Employees`;
 
     clmnCptnsPhbkEmployeeView: {[key:string]: string}  = {
         'employeeId': $localize`:Id of the Employee@@PhbkEmployeeView.employeeId-Name:Id of the Employee`,

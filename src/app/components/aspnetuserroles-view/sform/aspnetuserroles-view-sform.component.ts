@@ -54,7 +54,7 @@ class aspnetuserrolesViewMtPgntrIntl implements MatPaginatorIntl {
 })
 export class AspnetuserrolesViewSformComponent implements OnInit, AfterViewInit,  IEventEmitterPub, IItemHeightData {
 
-    @Input('caption') caption: string = $localize`User Roles@@AspnetuserrolesViewSformComponent.caption:User Roles`;
+    @Input('caption') caption: string = $localize`:User Roles@@AspnetuserrolesViewSformComponent.caption:User Roles`;
 
     clmnCptnsaspnetuserrolesView: {[key:string]: string}  = {
         'userId': $localize`:User Id@@aspnetuserrolesView.userId-Name:User Id`,

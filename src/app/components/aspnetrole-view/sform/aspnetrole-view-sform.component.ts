@@ -54,7 +54,7 @@ class aspnetroleViewMtPgntrIntl implements MatPaginatorIntl {
 })
 export class AspnetroleViewSformComponent implements OnInit, AfterViewInit,  IEventEmitterPub, IItemHeightData {
 
-    @Input('caption') caption: string = $localize`Roles@@AspnetroleViewSformComponent.caption:Roles`;
+    @Input('caption') caption: string = $localize`:Roles@@AspnetroleViewSformComponent.caption:Roles`;
 
     clmnCptnsaspnetroleView: {[key:string]: string}  = {
         'id': $localize`:Role Id@@aspnetroleView.id-Name:Role Id`,

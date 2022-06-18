@@ -54,7 +54,7 @@ class aspnetmodelViewMtPgntrIntl implements MatPaginatorIntl {
 })
 export class AspnetmodelViewSformComponent implements OnInit, AfterViewInit,  IEventEmitterPub, IItemHeightData {
 
-    @Input('caption') caption: string = $localize`Models@@AspnetmodelViewSformComponent.caption:Models`;
+    @Input('caption') caption: string = $localize`:Models@@AspnetmodelViewSformComponent.caption:Models`;
 
     clmnCptnsaspnetmodelView: {[key:string]: string}  = {
         'modelPk': $localize`:Model Id@@aspnetmodelView.modelPk-Name:Model Id`,

@@ -54,7 +54,7 @@ class aspnetuserViewMtPgntrIntl implements MatPaginatorIntl {
 })
 export class AspnetuserViewSformComponent implements OnInit, AfterViewInit,  IEventEmitterPub, IItemHeightData {
 
-    @Input('caption') caption: string = $localize`Users@@AspnetuserViewSformComponent.caption:Users`;
+    @Input('caption') caption: string = $localize`:Users@@AspnetuserViewSformComponent.caption:Users`;
 
     clmnCptnsaspnetuserView: {[key:string]: string}  = {
         'id': $localize`:User Id@@aspnetuserView.id-Name:User Id`,

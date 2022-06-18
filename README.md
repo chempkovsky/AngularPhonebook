@@ -21,6 +21,7 @@
 - #### [ После входа как Guest ](#После-входа-как-Guest)
 - #### [ Навигация от Master к Detail ](#Навигация-от-Master-к-Detail)
 - #### [ Один ко многим ](#Один-ко-многим)
+- #### [ Один ко многим при редактировании ](#Один-ко-многим-при-редактировании)
 
 - #### [ Вход или Регистрация ](#Вход-или-Регистрация)
 - #### [ После входа или регистрации ](#После-входа-или-регистрации)
@@ -398,6 +399,58 @@
 - войдите в приложение одним из пользователей
   - `Admin@gmail.com` с паролем `5Admin@gmail.com`
   - `Guest@gmail.com` с паролем `5Guest@gmail.com`
+
+- Убедитесь, что работает `Один ко многим`. Это показано на изображении 20
+
+<details>
+  <summary>Показать изображение 20</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk35.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk36.png)
+
+</details>
+
+
+### Один ко многим при редактировании
+- войдите в приложение как Admin
+  - `Admin@gmail.com` с паролем `5Admin@gmail.com`
+- кликните `телефоны`
+- кликните `Добавить элемент`
+  - Это показано на изображении 21
+
+<details>
+  <summary>Показать изображение 21</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk37.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk38.png)
+
+</details>
+
+- Откроется Форма `Добавить телефон`
+  - клкните кнопку `выбрать предприятие`
+
+<details>
+  <summary>Показать изображение 21</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk39.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk40.png)
+
+</details>
+
+
+- Откроется диалог `Добавить телефон`
+  - клкните кнопку `выбрать предприятие`
+
+
 
 - Убедитесь, что работает `Один ко многим`. Это показано на изображении 20
 

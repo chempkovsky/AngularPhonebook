@@ -54,7 +54,7 @@ class PhbkPhoneTypeViewMtPgntrIntl implements MatPaginatorIntl {
 })
 export class PhbkPhoneTypeViewSformComponent implements OnInit, AfterViewInit,  IEventEmitterPub, IItemHeightData {
 
-    @Input('caption') caption: string = $localize`Phone Types@@PhbkPhoneTypeViewSformComponent.caption:Phone Types`;
+    @Input('caption') caption: string = $localize`:Phone Types@@PhbkPhoneTypeViewSformComponent.caption:Phone Types`;
 
     clmnCptnsPhbkPhoneTypeView: {[key:string]: string}  = {
         'phoneTypeId': $localize`:Phone Type Id@@PhbkPhoneTypeView.phoneTypeId-Name:Phone Type Id`,
