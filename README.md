@@ -1145,7 +1145,7 @@
 - сохраните в паку `docker-compose.yml`-файл с содержанием как приведено ниже
 
 <details>
-  <summary>Показать изображение docker-compose.yml</summary>
+  <summary>Показать docker-compose.yml</summary>
 
 ````
 services:
