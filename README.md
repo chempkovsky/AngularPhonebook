@@ -22,6 +22,7 @@
 - #### [ Навигация от Master к Detail ](#Навигация-от-Master-к-Detail)
 - #### [ Один ко многим ](#Один-ко-многим)
 - #### [ Один ко многим при редактировании ](#Один-ко-многим-при-редактировании)
+- #### [ Валидация ](#Валидация)
 
 - #### [ Вход или Регистрация ](#Вход-или-Регистрация)
 - #### [ После входа или регистрации ](#После-входа-или-регистрации)
@@ -434,9 +435,10 @@
 
 - Откроется Форма `Добавить телефон`
   - клкните кнопку `выбрать предприятие`
+  - Это показано на изображении 22
 
 <details>
-  <summary>Показать изображение 21</summary>
+  <summary>Показать изображение 22</summary>
 
   ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk39.png)
 
@@ -447,24 +449,129 @@
 </details>
 
 
-- Откроется диалог `Добавить телефон`
-  - клкните кнопку `выбрать предприятие`
-
-
-
-- Убедитесь, что работает `Один ко многим`. Это показано на изображении 20
+- Откроется диалог `Выбрать предприятие`
+  - Выберите первое и нажмите `Ok`
+  - Это показано на изображении 23
 
 <details>
-  <summary>Показать изображение 20</summary>
+  <summary>Показать изображение 23</summary>
 
-  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk35.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk41.png)
 
 - или
 
-  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk36.png)
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk42.png)
 
 </details>
 
+
+- Вы вернетесь на форму `Добавить телефон`
+  - Поле `Предприятие` уже заполнено данными
+  - клкните кнопку `выбрать подразделение`
+  - Это показано на изображении 24
+
+
+<details>
+  <summary>Показать изображение 24</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk43.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk44.png)
+
+</details>
+
+
+
+- Откроется диалог `Выбрать подразделение`
+  - Убедитесь, что доступны только подразделения, которые принадлежат выбранному предприятию
+  - Выберите первое и нажмите `Ok`
+  - Это показано на изображении 25
+
+<details>
+  <summary>Показать изображение 25</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk45.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk46.png)
+
+</details>
+
+
+
+- Вы вернетесь на форму `Добавить телефон`
+  - Поле `Предприятие` уже заполнено данными
+  - Поле `Подразделение` уже заполнено данными
+  - клкните кнопку `выбрать сотрудника`
+  - Это показано на изображении 26
+
+<details>
+  <summary>Показать изображение 26</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk47.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk48.png)
+
+</details>
+
+
+- Откроется диалог `Выбрать сотрудника`
+  - Убедитесь, что доступны только сотрудники, которые принадлежат выбранному подразделению
+  - Выберите первого и нажмите `Ok`
+  - Это показано на изображении 27
+
+<details>
+  <summary>Показать изображение 27</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk49.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk50.png)
+
+</details>
+
+
+### Валидация
+
+- войдите в приложение как Admin
+  - `Admin@gmail.com` с паролем `5Admin@gmail.com`
+- кликните `телефоны`
+- кликните `Добавить элемент`
+  - Это показано на изображении 28
+
+<details>
+  <summary>Показать изображение 28</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk37.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk38.png)
+
+</details>
+
+- Откроется Форма `Добавить телефон`
+  - клкните кнопку `Ok`
+  - убедитесь, что валидация активировалась
+  - Это показано на изображении 29
+
+
+<details>
+  <summary>Показать изображение 29</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk51.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk52.png)
+
+</details>
 
 
 ### Почему новый пользователь уже имеет права
