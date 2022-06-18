@@ -61,7 +61,7 @@
   - Это данный модуль 
   - реализован под **Angular 13**
 - BackEnd модуль
-  - Находится в отдельном зепозитории [PhonebookSolution](https://github.com/chempkovsky/PhonebookSolution)
+  - Находится в отдельном репозитории [PhonebookSolution](https://github.com/chempkovsky/PhonebookSolution)
   - реализован под **Net 6** с использованием VS 2022
   
 ## Функциональные части решения
