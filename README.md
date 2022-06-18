@@ -19,6 +19,7 @@
 - #### [ Войти как Admin ](#Войти-как-Admin)
 - #### [ После входа как Admin ](#После-входа-как-Admin)
 - #### [ После входа как Guest ](#После-входа-как-Guest)
+- #### [ Навигация от Master к Detail ](#Навигация-от-Master-к-Detail)
 
 - #### [ Вход или Регистрация ](#Вход-или-Регистрация)
 - #### [ После входа или регистрации ](#После-входа-или-регистрации)
@@ -316,7 +317,7 @@
 - Убедитесь, что `Guest@gmail.com`(`5Guest@gmail.com`) не имеет прав на пункты меню `Администратор`. Это показано на изображении 15
 
 <details>
-  <summary>Показать изображение 14</summary>
+  <summary>Показать изображение 15</summary>
 
   ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk25.png)
 
@@ -326,6 +327,56 @@
 
 </details>
 
+### Навигация от Master к Detail
+- войдите в приложение одним из пользователей
+  - `Admin@gmail.com` с паролем `5Admin@gmail.com`
+  - `Guest@gmail.com` с паролем `5Guest@gmail.com`
+- Убедитесь, что навигация работает
+  - Предприятия-Подразделения. Это показано на изображении 16
+
+
+<details>
+  <summary>Показать изображение 16</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk27.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk28.png)
+
+</details>
+
+
+- Убедитесь, что навигация работает
+  - Подразделения-Сотрудники. Это показано на изображении 17
+
+
+<details>
+  <summary>Показать изображение 17</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk29.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk30.png)
+
+</details>
+
+
+- Убедитесь, что навигация работает
+  - Сотрудники-Телефоны. Это показано на изображении 18
+
+
+<details>
+  <summary>Показать изображение 18</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk31.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk32.png)
+
+</details>
 
 ### Почему новый пользователь уже имеет права
 - Администратор еще не присвоил никаких прав для вновь созданного пользователя и тем не менее он(пользователь) уже получил доступ к системным ресурсам. 
