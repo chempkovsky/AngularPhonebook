@@ -154,7 +154,7 @@
   
 ## Ленивая загрузка
 - **Замечание:** Плохо спроектированные и реализованные SPA приложения могут очень долго загружать первую станицу. Время расходуется на загрузку java-кода. 
-- **LazyLoading** решает эту проблему. В нашем случа именно этот подход и используется [см. главный модуль]( https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/app/app-routing.module.ts) и [см. один из дополнительных модулей](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/app/components/phdct-employee-view/phdct-employee-view-rl.routing.module.ts). 
+- **LazyLoading** решает эту проблему. В нашем случа именно этот подход и используется [см. главный модуль]( https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/app-routing.module.ts) и [см. один из дополнительных модулей](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/components/phdct-employee-view/phdct-employee-view-rl.routing.module.ts). 
 - Вообще говоря, данный подход позволяет строить не просто большие, но позволяет строить **огромные** приложения, которые по функционалу не уступают Decktop-приложениям.
 - **В сухом остатке**: В данном приложении каждая страница открывается очень быстро, вне зависимости от того, сколько этих страниц реализовано в приложении (или десять или сто или тысячи). А вот данные на страницу могут приходить с задержкой. Это зависит от того как загружен SQL-сервер, который находится позади WebApi-сервер. В нашем случае, это [BackEnd модуль](#Модули). 
 
@@ -447,7 +447,7 @@
 Обязательно поравить файл  https://github.com/chempkovsky/PhoneDictionary/blob/master/PhdctMsWebApp/appsettings.json
 
 ### Чтобы согласовать оба проекта
-Чтобы согласовать http Angular и C# проектов необходимо заглянуть в [файл](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/app/shared/services/app-glbl-settings.service.ts) глобального сервиса и поменять в трех методах URL.
+Чтобы согласовать http Angular и C# проектов необходимо заглянуть в [файл](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/shared/services/app-glbl-settings.service.ts) глобального сервиса и поменять в трех методах URL.
 
 ````java
  public getWebApiPrefix(vwNm: string): string {
@@ -489,20 +489,20 @@
 </details>
 
 - Папка shared содержит 
-  - [services](https://github.com/chempkovsky/AngularPhoneDictionary/tree/master/src/app/shared/services)
-    - глоабальный [сервис настроект](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/app/shared/services/app-glbl-settings.service.ts). Это все настройки приложения.
-    - логин сервис [сервис настроект](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/app/shared/services/app-glbl-login.service.ts). Публикует запросы для вход, выход, изменить пароль, регистрация
-  - [interceptors](https://github.com/chempkovsky/AngularPhoneDictionary/tree/master/src/app/shared/interceptors)
-    - [http interceptor](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/app/shared/interceptors/app-glbl.interceptor.ts). Interceptor подставляет JwtBearer токен (если такой имеется) в заголовок каждого http к WebApi.
-  - [components](https://github.com/chempkovsky/AngularPhoneDictionary/tree/master/src/app/shared/components)
+  - [services](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/shared/services)
+    - глоабальный [сервис настроект](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/shared/services/app-glbl-settings.service.ts). Это все настройки приложения.
+    - логин сервис [сервис настроект](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/shared/services/app-glbl-login.service.ts). Публикует запросы для вход, выход, изменить пароль, регистрация
+  - [interceptors](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/shared/interceptors)
+    - [http interceptor](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/shared/interceptors/app-glbl.interceptor.ts). Interceptor подставляет JwtBearer токен (если такой имеется) в заголовок каждого http к WebApi.
+  - [components](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/shared/components)
     - Формы Login, Logout, ChangePassword, Register, Home, PageNotfound
-    - [Форма](https://github.com/chempkovsky/AngularPhoneDictionary/tree/master/src/app/shared/components/column-selector) и [диалог](https://github.com/chempkovsky/AngularPhoneDictionary/tree/master/src/app/shared/components/column-selector-dlg) для выбора столбцов которые показывать в таблице
-    - [Диалог](https://github.com/chempkovsky/AngularPhoneDictionary/tree/master/src/app/shared/components/message-dialog) текстовых сообщений приложения с кнопками "Да" и "Нет"
-    - [web-service-filter](https://github.com/chempkovsky/AngularPhoneDictionary/tree/master/src/app/shared/components/web-service-filter). Об этой компоненте мы поговорим отдельно в следующем параграфе
+    - [Форма](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/shared/components/column-selector) и [диалог](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/shared/components/column-selector-dlg) для выбора столбцов которые показывать в таблице
+    - [Диалог](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/shared/components/message-dialog) текстовых сообщений приложения с кнопками "Да" и "Нет"
+    - [web-service-filter](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/shared/components/web-service-filter). Об этой компоненте мы поговорим отдельно в следующем параграфе
    
 ##### Компонента WebServiceFilter
-- Каждая табличная форма содержит [WebServiceFilter](https://github.com/chempkovsky/AngularPhoneDictionary/tree/master/src/app/shared/components/web-service-filter) см. изображение 40
-  - [WebServiceFilter](https://github.com/chempkovsky/AngularPhoneDictionary/tree/master/src/app/shared/components/web-service-filter) позволяет задать один или несколько атрибутов для фильтрации см. изображение 40
+- Каждая табличная форма содержит [WebServiceFilter](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/shared/components/web-service-filter) см. изображение 40
+  - [WebServiceFilter](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/shared/components/web-service-filter) позволяет задать один или несколько атрибутов для фильтрации см. изображение 40
   - Данная компонента получает на вход **перечень полей для фильтрации**, **перечень операторов** для применения к полям фильтрации
   - Важным параметром для понимания является **hiddenFilter**. Если табличная форма используется в качестве **один-ко-многим Ditail** формы, то на вход такой таблицы мы должны подать первичный ключ **master**-таблицы. Так вот, **hiddenFilter** - это первичный ключ мастер таблицы.
   - Если задан **hiddenFilter**, то компонента не отображает в **перечене полей для фильтрации** поля перечисленные в коллекции **hiddenFilter**.
@@ -515,9 +515,9 @@
 
 - Существует **следующий феномен**: программист изучил всех все функции и параметры какой-либо компоненты и вес равно не понял как этой компонентой пользоваться. **Второй аспект этого феномена** состоит в том, что спустся некоторое время (это 30 дней) программист обязательно забудет, что он читал. Для борьбы с этим феноменом используется прием примера использования той или другой компоненты. Программист заглядывает в рабочий пример и у него все всплывает в памяти, включая информацию по атрибутам и функциям компоненты. Именно рабочий пример и запоминается. Сказанное выше можно переформулировать следующим образом: фраза "повторение -- мать учения" не является верной, но верной является фраза "применение -- мать учения". 
   - Чтобы посмотеть на **рабочий пример использования WebServiceFilter** и быстро схватить суть откройте любую **sform**-компоненту (search-form)
-    - или [sform для aspnetmodel](https://github.com/chempkovsky/AngularPhoneDictionary/tree/master/src/app/components/aspnetmodel-view/sform)
-    - или [sform для employee](https://github.com/chempkovsky/AngularPhoneDictionary/tree/master/src/app/components/phdct-employee-view/sform)
-    - или [sform для phone](https://github.com/chempkovsky/AngularPhoneDictionary/tree/master/src/app/components/phdct-phone-view/sform)
+    - или [sform для aspnetmodel](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/aspnetmodel-view/sform)
+    - или [sform для employee](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/phdct-employee-view/sform)
+    - или [sform для phone](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/phdct-phone-view/sform)
 
 #### Папки components и services
 - Папки **components** и **services** имеют одинаковую вложенную структуру (см. изображение 41) и соответствуют всем прикладным компонета приложения.
@@ -537,17 +537,17 @@
 - В терминах Sql. **ViewModel** для заданной таблицы - это подмножество полей данной таблицы и подмножество полей прямых и непрямых мастер таблиц. Т.е. **ViewModel** - это частный случай **Sql View** для заданной таблицы и мастер таблиц (прямых и непрямых), которые можно получить по **foreign key**-цепочкам.
 - Все объявленные в приложении [ViewModel-классы](https://github.com/chempkovsky/PhoneDictionary/tree/master/PhdctView) WebApi-проекта
 - Все объявленные в приложении ViewModel-интерфейсы Angular-проекты
-  - [components/aspnetrole-view/interfaces](https://github.com/chempkovsky/AngularPhoneDictionary/tree/master/src/app/components/aspnetrole-view/interfaces)
-  - [components/aspnetrole-view/interfaces](https://github.com/chempkovsky/AngularPhoneDictionary/tree/master/src/app/components/aspnetrole-view/interfaces)
+  - [components/aspnetrole-view/interfaces](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/aspnetrole-view/interfaces)
+  - [components/aspnetrole-view/interfaces](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/aspnetrole-view/interfaces)
   - ...
-  - [components/phdct-phone-view/interfaces/](https://github.com/chempkovsky/AngularPhoneDictionary/tree/master/src/app/components/phdct-phone-view/interfaces)
+  - [components/phdct-phone-view/interfaces/](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/phdct-phone-view/interfaces)
 
 ##### Сервисы для ViewModel
 - Заглянем в файл 
-  - [services/aspnetmodel-view/aspnetmodel-view.service.ts](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/app/services/aspnetmodel-view/aspnetmodel-view.service.ts)
-  - [services/aspnetrole-view/aspnetrole-view.service.ts](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/app/services/aspnetrole-view/aspnetrole-view.service.ts)
+  - [services/aspnetmodel-view/aspnetmodel-view.service.ts](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/services/aspnetmodel-view/aspnetmodel-view.service.ts)
+  - [services/aspnetrole-view/aspnetrole-view.service.ts](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/services/aspnetrole-view/aspnetrole-view.service.ts)
   - ...
-  - [services/phdct-phone-view/phdct-phone-view.service.ts](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/app/services/phdct-phone-view/phdct-phone-view.service.ts)
+  - [services/phdct-phone-view/phdct-phone-view.service.ts](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/services/phdct-phone-view/phdct-phone-view.service.ts)
   
  - Каждый сервис реализует методы, котрые говорят сами за себя
    - getwithfilter
@@ -559,19 +559,19 @@
 
 ##### DataSource для ViewModel
 - Заглянем в файл 
-  - [services/aspnetmodel-view/aspnetmodel-view-datasource.class.ts](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/app/services/aspnetmodel-view/aspnetmodel-view-datasource.class.ts)
-  - [services/aspnetrole-view/aspnetrole-view-datasource.class.ts](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/app/services/aspnetrole-view/aspnetrole-view-datasource.class.ts)
+  - [services/aspnetmodel-view/aspnetmodel-view-datasource.class.ts](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/services/aspnetmodel-view/aspnetmodel-view-datasource.class.ts)
+  - [services/aspnetrole-view/aspnetrole-view-datasource.class.ts](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/services/aspnetrole-view/aspnetrole-view-datasource.class.ts)
   - ...
-  - [services/phdct-phone-view/phdct-phone-view-datasource.class.ts ](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/app/services/phdct-phone-view/phdct-phone-view-datasource.class.ts)
+  - [services/phdct-phone-view/phdct-phone-view-datasource.class.ts ](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/services/phdct-phone-view/phdct-phone-view-datasource.class.ts)
 - DataSource помогет реализовать [**master-detail**-функционал на уровне конролей](#Один-ко-многим-на-уровне-контролей-форм-редактирования) для форм добавить, удалить, обновить, и просмотреть
 
 ##### Sform для ViewModel
 - Sform - это search форма
 - Заглянем в папку
-  - [components/aspnetmodel-view/sform](https://github.com/chempkovsky/AngularPhoneDictionary/tree/master/src/app/components/aspnetmodel-view/sform)
-  - [components/aspnetrole-view/sform](https://github.com/chempkovsky/AngularPhoneDictionary/tree/master/src/app/components/aspnetrole-view/sform)
+  - [components/aspnetmodel-view/sform](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/aspnetmodel-view/sform)
+  - [components/aspnetrole-view/sform](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/aspnetrole-view/sform)
   - ...
-  - [components/phdct-phone-view/sform](https://github.com/chempkovsky/AngularPhoneDictionary/tree/master/src/app/components/phdct-phone-view/sform)
+  - [components/phdct-phone-view/sform](https://github.com/chempkovsky/AngularPhonebook/tree/master/src/app/components/phdct-phone-view/sform)
 - Каждая Sform 
   - отображает фильтр поиска и таблицу результатов. 
   - Sform умееет посылать запрос к WebApi на получение списка по фильтру с заданной сортировкой. 
@@ -743,7 +743,7 @@
 - rlist использует навигацию Angular для активации функциями Add(Update,Delete,View)-item, с использованием raform(ruform, rdform, rvform)
 
 - Вспоминая **феномен рабочего примера использования**, приводим список компонент которые используют rdform:
-  - для активации используется строка разметки, аналогичная показанной ниже. [см также app/app.component.html]( https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/app/app.component.html)
+  - для активации используется строка разметки, аналогичная показанной ниже. [см также app/app.component.html]( https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/app.component.html)
 ````html
  <a mat-list-item [routerLink]="['PhdctEmployeeView']" routerLinkActive="active">Сотрудники</a>
 ````
@@ -753,13 +753,13 @@
 - rdlist использует диалоги adlg(udlg, ddlg, vdlg) для Add(Update,Delete,View)-item.
 
 - Вспоминая **феномен рабочего примера использования**, приводим список компонент которые используют rdform:
-  - для активации используется строка разметки, аналогичная показанной ниже. [см также app/app.component.html]( https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/app/app.component.html)
+  - для активации используется строка разметки, аналогичная показанной ниже. [см также app/app.component.html]( https://github.com/chempkovsky/AngularPhonebook/blob/master/src/app/app.component.html)
 ````html
  <a mat-list-item [routerLink]="['RDLPhdctEmployeeView']" routerLinkActive="active">Сотрудники (Dlg)</a>
 ````
 
 ## Docker для Angular модуля
-- Прежде всего необходимо заглянуть в [Dockerfile](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/Dockerfile). В вашем распоряжении два сценария для создания Docker-образа: быстрый и медленный
+- Прежде всего необходимо заглянуть в [Dockerfile](https://github.com/chempkovsky/AngularPhonebook/blob/master/Dockerfile). В вашем распоряжении два сценария для создания Docker-образа: быстрый и медленный
 #### Быстрый способ создания Docker образа
 - Данный способ предполагает, что Node.js Cli и Angular Cli уже установлены на вашем компьютере. 
 
@@ -1250,7 +1250,7 @@ host    all             all             all                 	scram-sha-256
 - Важно заметить, что URL WebApi над Postgres задается в файле [launchSettings.json](https://github.com/chempkovsky/PhoneDictionary/blob/master/PhdctPstGsWebApp/Properties/launchSettings.json) Это нам понадобится для настройки Angualr проекта.
 
 ### Angualr над Postgres
-Перейдите в файл [assets/app-config.json](https://github.com/chempkovsky/AngularPhoneDictionary/blob/master/src/assets/app-config.json) Angualr проекта и установите URL из файла [launchSettings.json](https://github.com/chempkovsky/PhoneDictionary/blob/master/PhdctPstGsWebApp/Properties/launchSettings.json)
+Перейдите в файл [assets/app-config.json](https://github.com/chempkovsky/AngularPhonebook/blob/master/src/assets/app-config.json) Angualr проекта и установите URL из файла [launchSettings.json](https://github.com/chempkovsky/PhoneDictionary/blob/master/PhdctPstGsWebApp/Properties/launchSettings.json)
 ````
 {
     "webApiUrl": "https://localhost:7229/",
@@ -1261,7 +1261,7 @@ host    all             all             all                 	scram-sha-256
 
 ### Тестирование Angualr и WebApi над Postgres
 - cредствами Visual Studion 2022 Запустите [PhdctPstGsWebApp](https://github.com/chempkovsky/PhoneDictionary/tree/master/PhdctPstGsWebApp) на выполнение, 
-- командой ````ns serve -o ```` запустите [AngularPhoneDictionary](https://github.com/chempkovsky/AngularPhoneDictionary) на выполнение
+- командой ````ns serve -o ```` запустите [AngularPhonebook](https://github.com/chempkovsky/AngularPhonebook) на выполнение
 - перечитайте мантру [ Важное напоминание ](#Важное-напоминание). Все должно развернуться на Postgres (см изображение 56).
   
   <details>
