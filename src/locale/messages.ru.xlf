@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="ru" date="2022-06-17T18:19:19Z">
+  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="ru" date="2022-06-18T15:48:23Z">
     <body>
       <trans-unit id="AppComponent.Home" datatype="html">
         <source>Home</source>
@@ -1614,13 +1614,14 @@
         <note priority="1" from="description">Table columns</note>
         <target>Таблица столбцы</target>
       </trans-unit>
-      <trans-unit id="2324692567515176224" datatype="html">
-        <source>Models@@AspnetmodelViewSformComponent.caption:Models</source>
+      <trans-unit id="AspnetmodelViewSformComponent.caption" datatype="html">
+        <source>Models</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetmodel-view/sform/aspnetmodel-view-sform.component.ts</context>
           <context context-type="linenumber">57</context>
         </context-group>
-        <target>Модели @@ aspnetmodelviewsformcomponent.caption: модели</target>
+        <note priority="1" from="description">Models</note>
+        <target>Модели</target>
       </trans-unit>
       <trans-unit id="aspnetmodelView.modelPk-Name" datatype="html">
         <source>Model Id</source>
@@ -2378,13 +2379,14 @@
         <note priority="1" from="description">Table columns</note>
         <target>Таблица столбцы</target>
       </trans-unit>
-      <trans-unit id="7854834071173069803" datatype="html">
-        <source>Roles@@AspnetroleViewSformComponent.caption:Roles</source>
+      <trans-unit id="AspnetroleViewSformComponent.caption" datatype="html">
+        <source>Roles</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetrole-view/sform/aspnetrole-view-sform.component.ts</context>
           <context context-type="linenumber">57</context>
         </context-group>
-        <target>Роли @@ aspnetroleviewsformcomponent.caption: Роли</target>
+        <note priority="1" from="description">Roles</note>
+        <target>Роли</target>
       </trans-unit>
       <trans-unit id="aspnetroleView.id-Name" datatype="html">
         <source>Role Id</source>
@@ -3439,13 +3441,14 @@
         <note priority="1" from="description">Table columns</note>
         <target>Таблица столбцы</target>
       </trans-unit>
-      <trans-unit id="6830924715778557413" datatype="html">
-        <source>Role Masks@@AspnetrolemaskViewSformComponent.caption:Role Masks</source>
+      <trans-unit id="AspnetrolemaskViewSformComponent.caption" datatype="html">
+        <source>Role Masks</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetrolemask-view/sform/aspnetrolemask-view-sform.component.ts</context>
           <context context-type="linenumber">57</context>
         </context-group>
-        <target>Ролевая маски @@ aspnetrolemaskviewsformcomponent.caption: Ролевые маски</target>
+        <note priority="1" from="description">Role Masks</note>
+        <target>Ролевые маски</target>
       </trans-unit>
       <trans-unit id="aspnetrolemaskView.roleDescription-Name" datatype="html">
         <source>Role Description</source>
@@ -4869,13 +4872,14 @@
         <note priority="1" from="description">Table columns</note>
         <target>Таблица столбцы</target>
       </trans-unit>
-      <trans-unit id="2537646665287472198" datatype="html">
-        <source>Users@@AspnetuserViewSformComponent.caption:Users</source>
+      <trans-unit id="AspnetuserViewSformComponent.caption" datatype="html">
+        <source>Users</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetuser-view/sform/aspnetuser-view-sform.component.ts</context>
           <context context-type="linenumber">57</context>
         </context-group>
-        <target>Пользователи @@ aspnetuserviewsformcomponent.caption: пользователи</target>
+        <note priority="1" from="description">Users</note>
+        <target>Пользователи</target>
       </trans-unit>
       <trans-unit id="aspnetuserView.id-Name" datatype="html">
         <source>User Id</source>
@@ -5309,13 +5313,14 @@
         <note priority="1" from="description">Table columns</note>
         <target>Таблица столбцы</target>
       </trans-unit>
-      <trans-unit id="7446452494497838629" datatype="html">
-        <source>User Masks@@AspnetusermaskViewSformComponent.caption:User Masks</source>
+      <trans-unit id="AspnetusermaskViewSformComponent.caption" datatype="html">
+        <source>User Masks</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetusermask-view/sform/aspnetusermask-view-sform.component.ts</context>
           <context context-type="linenumber">57</context>
         </context-group>
-        <target>Пользовательские маски @@ aspnetusermaskviewsformcomponent.caption: пользовательские маски</target>
+        <note priority="1" from="description">User Masks</note>
+        <target>Пользовательские маски</target>
       </trans-unit>
       <trans-unit id="aspnetusermaskView.userId-Name" datatype="html">
         <source>User Id</source>
@@ -6064,13 +6069,14 @@
         <note priority="1" from="description">Table columns</note>
         <target>Таблица столбцы</target>
       </trans-unit>
-      <trans-unit id="3472720225603533342" datatype="html">
-        <source>User Roles@@AspnetuserrolesViewSformComponent.caption:User Roles</source>
+      <trans-unit id="AspnetuserrolesViewSformComponent.caption" datatype="html">
+        <source>User Roles</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetuserroles-view/sform/aspnetuserroles-view-sform.component.ts</context>
           <context context-type="linenumber">57</context>
         </context-group>
-        <target>Пользовательские роли @@ aspnetuserrolesviewsformcomponent.caption: пользовательские роли</target>
+        <note priority="1" from="description">User Roles</note>
+        <target>Пользовательские роли</target>
       </trans-unit>
       <trans-unit id="aspnetuserrolesView.userId-Name" datatype="html">
         <source>User Id</source>
@@ -6981,13 +6987,14 @@
         <note priority="1" from="description">Table columns</note>
         <target>Таблица столбцы</target>
       </trans-unit>
-      <trans-unit id="6344757939602698591" datatype="html">
-        <source>Divisions@@PhbkDivisionViewSformComponent.caption:Divisions</source>
+      <trans-unit id="PhbkDivisionViewSformComponent.caption" datatype="html">
+        <source>Divisions</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-division-view/sform/phbk-division-view-sform.component.ts</context>
           <context context-type="linenumber">69</context>
         </context-group>
-        <target>Подразделения @@ phbkdivisionviewsformcomponent.caption: подразделения</target>
+        <note priority="1" from="description">Divisions</note>
+        <target>Подразделения</target>
       </trans-unit>
       <trans-unit id="PhbkDivisionView.divisionId-Name" datatype="html">
         <source>Id of the Division</source>
@@ -8082,13 +8089,14 @@
         <note priority="1" from="description">Table columns</note>
         <target>Таблица столбцы</target>
       </trans-unit>
-      <trans-unit id="2993811635304547387" datatype="html">
-        <source>Employees@@PhbkEmployeeViewSformComponent.caption:Employees</source>
+      <trans-unit id="PhbkEmployeeViewSformComponent.caption" datatype="html">
+        <source>Employees</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-employee-view/sform/phbk-employee-view-sform.component.ts</context>
           <context context-type="linenumber">77</context>
         </context-group>
-        <target>Сотрудники @@ phbkemployeeeviewsformcomponent.caption: сотрудники</target>
+        <note priority="1" from="description">Employees</note>
+        <target>Сотрудники</target>
       </trans-unit>
       <trans-unit id="PhbkEmployeeView.employeeId-Name" datatype="html">
         <source>Id of the Employee</source>
@@ -8985,13 +8993,14 @@
         <note priority="1" from="description">Table columns</note>
         <target>Таблица столбцы</target>
       </trans-unit>
-      <trans-unit id="2046662630147859051" datatype="html">
-        <source>Enterprises@@PhbkEnterpriseViewSformComponent.caption:Enterprises</source>
+      <trans-unit id="PhbkEnterpriseViewSformComponent.caption" datatype="html">
+        <source>Enterprises</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-enterprise-view/sform/phbk-enterprise-view-sform.component.ts</context>
           <context context-type="linenumber">57</context>
         </context-group>
-        <target>Enterprises @@ phbkenterpriseviewsformcomponent.caption: Enterprises</target>
+        <note priority="1" from="description">Enterprises</note>
+        <target>Предприятия</target>
       </trans-unit>
       <trans-unit id="PhbkEnterpriseView.entrprsId-Name" datatype="html">
         <source>Id of the Enterprise</source>
@@ -9821,13 +9830,14 @@
         <note priority="1" from="description">Table columns</note>
         <target>Таблица столбцы</target>
       </trans-unit>
-      <trans-unit id="3734929606891179735" datatype="html">
-        <source>Phone Types@@PhbkPhoneTypeViewSformComponent.caption:Phone Types</source>
+      <trans-unit id="PhbkPhoneTypeViewSformComponent.caption" datatype="html">
+        <source>Phone Types</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-type-view/sform/phbk-phone-type-view-sform.component.ts</context>
           <context context-type="linenumber">57</context>
         </context-group>
-        <target>Типы телефонов @@ phbkphonetypeviewsformcomponent.caption: Типы телефонов</target>
+        <note priority="1" from="description">Phone Types</note>
+        <target>Типы телефона</target>
       </trans-unit>
       <trans-unit id="PhbkPhoneTypeView.phoneTypeId-Name" datatype="html">
         <source>Phone Type Id</source>
@@ -10954,13 +10964,14 @@
         <note priority="1" from="description">Table columns</note>
         <target>Таблица столбцы</target>
       </trans-unit>
-      <trans-unit id="7105683291224292347" datatype="html">
-        <source>Phones@@PhbkPhoneViewSformComponent.caption:Phones</source>
+      <trans-unit id="PhbkPhoneViewSformComponent.caption" datatype="html">
+        <source>Phones</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-view/sform/phbk-phone-view-sform.component.ts</context>
           <context context-type="linenumber">77</context>
         </context-group>
-        <target>Телефоны @@ phbkphoneviewsformcomponent.caption: телефоны</target>
+        <note priority="1" from="description">Phones</note>
+        <target>Телефоны</target>
       </trans-unit>
       <trans-unit id="PhbkPhoneView.phoneId-Name" datatype="html">
         <source>Phone Id</source>
