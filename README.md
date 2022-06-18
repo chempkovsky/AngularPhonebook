@@ -23,6 +23,7 @@
 - #### [ Один ко многим ](#Один-ко-многим)
 - #### [ Один ко многим при редактировании ](#Один-ко-многим-при-редактировании)
 - #### [ Валидация ](#Валидация)
+- #### [ Автозаполнение ](#Автозаполнение)
 
 - #### [ Вход или Регистрация ](#Вход-или-Регистрация)
 - #### [ После входа или регистрации ](#После-входа-или-регистрации)
@@ -570,6 +571,45 @@
 - или
 
   ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk52.png)
+
+</details>
+
+
+### Автозаполнение
+- войдите в приложение как Admin
+  - `Admin@gmail.com` с паролем `5Admin@gmail.com`
+- кликните `Сотрудники`
+- Выберите `Телефоны` в combobox
+- В нижнем пенале выберите `Добавить сотрудника` в combobox
+  - Это показано на изображении 30
+
+<details>
+  <summary>Показать изображение 30</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk53.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk54.png)
+
+</details>
+
+- В нижнем пенале появится форма `Добавить телефон`
+- Убедитесь, что поля следующие поля **уже заполнены** и находятся в режиме `Только чтение`
+  - `Сотрудник`
+  - `Подразделение`
+  - `Предприятие `
+  - Это показано на изображении 31
+
+
+<details>
+  <summary>Показать изображение 31</summary>
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk55.png)
+
+- или
+
+  ![picture](https://github.com/chempkovsky/AngularPhonebook/blob/master/Img/PhBk56.png)
 
 </details>
 
