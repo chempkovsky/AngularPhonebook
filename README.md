@@ -1,6 +1,7 @@
 
 ## AngularPhonebook
-- Тестовая задача - **телефонный справочник**
+- Demo - **телефонный справочник**
+- [См. Пошаговые инструкции создания данного приложенияъ](https://github.com/chempkovsky/CS82ANGULAR/wiki)
   - [docker compose файл для mssql](#Docker-compose-используя-Docker-hub)
 
 
