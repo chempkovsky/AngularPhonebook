@@ -1,7 +1,7 @@
 
 ## AngularPhonebook
 - Demo - **телефонный справочник**
-- [См. Пошаговые инструкции создания данного приложения](https://github.com/chempkovsky/CS82ANGULAR/wiki)
+- [См. Детальные пошаговые инструкции создания данного приложения](https://github.com/chempkovsky/CS82ANGULAR/wiki)
 - [ Docker compose файл для MsSql ](#docker-compose-файл-для-MsSql)
 - Если вы освоились с [CS82ANGULAR](https://github.com/chempkovsky/CS82ANGULAR) средством, то создание такого приложения потребует порядка 8 часов!!!
   - Создание Docker образов еще два или три часа (включая тестирование).
