@@ -182,13 +182,19 @@
 
 ## MsSQL
 - Данное Demo app использует MsSQL как сервер БД
+  - [LpPhBkWebApp](https://github.com/chempkovsky/PhonebookSolution/tree/master/LpPhBkWebApp)
+  - [PhBkWebApp](https://github.com/chempkovsky/PhonebookSolution/tree/master/PhBkWebApp)
 
 ## PostgreSQL
 - PostgreSQL может использоваться как сервер БД. [См. нашу статью](https://github.com/chempkovsky/CS82ANGULAR/wiki/260-PostgreSQL-Support)
-
+  - [LpPhBkPostgreSqlWebApp](https://github.com/chempkovsky/PhonebookSolution/tree/master/LpPhBkPostgreSqlWebApp)
+  - [PhBkPostgreSqlWebApp](https://github.com/chempkovsky/PhonebookSolution/tree/master/PhBkPostgreSqlWebApp)
+  - 
 ## MySQL
 - MySQL может использоваться как сервер БД. [См. нашу статью](https://github.com/chempkovsky/CS82ANGULAR/wiki/250-MySQL-Support)
-
+  - [LpPhBkMySqlWebApp](https://github.com/chempkovsky/PhonebookSolution/tree/master/LpPhBkMySqlWebApp)
+  - [PhBkMySqlWebApp](https://github.com/chempkovsky/PhonebookSolution/tree/master/PhBkMySqlWebApp)
+  - 
 ## Стартовая страница приложения
 - при запуске приложения открывается главная страца приложения с пунктами меню разделенными на две ргуппы. Пункты меню предметной области и пункты меню администратора. Это показано на изображении 3. 
   - Стартовая страница может быть открыта или в Английской версии или Русской. Это зависит от настроек вашего браузера.
