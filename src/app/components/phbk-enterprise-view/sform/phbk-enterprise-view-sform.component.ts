@@ -56,6 +56,7 @@ export class PhbkEnterpriseViewSformComponent implements OnInit, AfterViewInit, 
 
     @Input('caption') caption: string = $localize`:Enterprises@@PhbkEnterpriseViewSformComponent.caption:Enterprises`;
 
+
     clmnCptnsPhbkEnterpriseView: {[key:string]: string}  = {
         'entrprsId': $localize`:Id of the Enterprise@@PhbkEnterpriseView.entrprsId-Name:Id of the Enterprise`,
         'entrprsName': $localize`:Name of the Enterprise@@PhbkEnterpriseView.entrprsName-Name:Name of the Enterprise`,
@@ -454,13 +455,13 @@ export class PhbkEnterpriseViewSformComponent implements OnInit, AfterViewInit, 
         let r: {id: string; f: {[key: string]: string}|any; csc: string; pgi: number; pgsz: number} = {id: this.curIndexMenuItemsData.id, f: undefined, csc:this.currentSortColumn, pgi: this.currentPageIndex, pgsz: this.currentPageSize};
         let kyvl: {[key: string]: string} = {};
         switch (r.id) {
-            case 'EntrprsNameUK':  
+            case 'scannByEntrprsNameUK':  
                 if(flt) {
                     kyvl['data'] = JSON.stringify(flt);
                     r.f = kyvl;
                 }
                 break;           
-            case 'Primary':  
+            case 'scannByPrimary':  
                 if(flt) {
                     kyvl['data'] = JSON.stringify(flt);
                     r.f = kyvl;

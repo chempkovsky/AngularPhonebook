@@ -76,6 +76,7 @@ export class PhbkEmployeeViewSformComponent implements OnInit, AfterViewInit,  I
 
     @Input('caption') caption: string = $localize`:Employees@@PhbkEmployeeViewSformComponent.caption:Employees`;
 
+
     clmnCptnsPhbkEmployeeView: {[key:string]: string}  = {
         'employeeId': $localize`:Id of the Employee@@PhbkEmployeeView.employeeId-Name:Id of the Employee`,
         'empFirstName': $localize`:Employee First Name@@PhbkEmployeeView.empFirstName-Name:Employee First Name`,
@@ -630,7 +631,7 @@ export class PhbkEmployeeViewSformComponent implements OnInit, AfterViewInit,  I
                 }
                 r.f = kyvl;
                 break;           
-            case 'Primary':  
+            case 'scannByPrimary':  
                 if(flt) {
                     kyvl['data'] = JSON.stringify(flt);
                     r.f = kyvl;

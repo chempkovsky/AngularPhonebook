@@ -56,6 +56,7 @@ export class AspnetmodelViewSformComponent implements OnInit, AfterViewInit,  IE
 
     @Input('caption') caption: string = $localize`:Models@@AspnetmodelViewSformComponent.caption:Models`;
 
+
     clmnCptnsaspnetmodelView: {[key:string]: string}  = {
         'modelPk': $localize`:Model Id@@aspnetmodelView.modelPk-Name:Model Id`,
         'modelName': $localize`:Model Name@@aspnetmodelView.modelName-Name:Model Name`,
@@ -435,7 +436,7 @@ export class AspnetmodelViewSformComponent implements OnInit, AfterViewInit,  IE
         let r: {id: string; f: {[key: string]: string}|any; csc: string; pgi: number; pgsz: number} = {id: this.curIndexMenuItemsData.id, f: undefined, csc:this.currentSortColumn, pgi: this.currentPageIndex, pgsz: this.currentPageSize};
         let kyvl: {[key: string]: string} = {};
         switch (r.id) {
-            case 'Primary':  
+            case 'scannByPrimary':  
                 if(flt) {
                     kyvl['data'] = JSON.stringify(flt);
                     r.f = kyvl;

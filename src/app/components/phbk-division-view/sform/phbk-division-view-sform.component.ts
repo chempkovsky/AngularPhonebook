@@ -68,6 +68,7 @@ export class PhbkDivisionViewSformComponent implements OnInit, AfterViewInit,  I
 
     @Input('caption') caption: string = $localize`:Divisions@@PhbkDivisionViewSformComponent.caption:Divisions`;
 
+
     clmnCptnsPhbkDivisionView: {[key:string]: string}  = {
         'divisionId': $localize`:Id of the Division@@PhbkDivisionView.divisionId-Name:Id of the Division`,
         'divisionName': $localize`:Name of the Division@@PhbkDivisionView.divisionName-Name:Name of the Division`,
@@ -559,7 +560,7 @@ export class PhbkDivisionViewSformComponent implements OnInit, AfterViewInit,  I
                 }
                 r.f = kyvl;
                 break;           
-            case 'Primary':  
+            case 'scannByPrimary':  
                 if(flt) {
                     kyvl['data'] = JSON.stringify(flt);
                     r.f = kyvl;

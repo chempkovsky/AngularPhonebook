@@ -161,7 +161,6 @@ export class UniqServiceFilterComponent implements OnInit, IEventEmitterPub {
         } else {
             this.webServiceFilters = [];
         }
-        console.log(this.webServiceFilters);
         this.cd.detectChanges();
     }
 

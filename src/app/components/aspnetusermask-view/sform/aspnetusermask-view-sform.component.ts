@@ -56,6 +56,7 @@ export class AspnetusermaskViewSformComponent implements OnInit, AfterViewInit, 
 
     @Input('caption') caption: string = $localize`:User Masks@@AspnetusermaskViewSformComponent.caption:User Masks`;
 
+
     clmnCptnsaspnetusermaskView: {[key:string]: string}  = {
         'userId': $localize`:User Id@@aspnetusermaskView.userId-Name:User Id`,
         'mask1': $localize`:Permission to Sel@@aspnetusermaskView.mask1-Name:Permission to Sel`,

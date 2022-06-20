@@ -208,7 +208,7 @@ export class AppGlblSettingsService implements CanActivate, CanActivateChild, Ht
 */
     };
     getViewModelMask(vwModel: string): number {
-      // return 31; // delete this line when vwModels is ready
+      return 31; // delete this line when vwModels is ready
       let pk = this.vwModels[vwModel];
       if(typeof pk === 'undefined') { return 0; } else { return pk; }
 /*
@@ -228,7 +228,7 @@ deprecated
 */
     }
     getDashBrdMask(dshBrd: string): number {
-      // return 1; // delete this line when dshBrds is ready
+      return 1; // delete this line when dshBrds is ready
       let pk = this.vwModels[dshBrd];
       if(typeof pk === 'undefined') { return 0; } else { return pk; }
 /* 

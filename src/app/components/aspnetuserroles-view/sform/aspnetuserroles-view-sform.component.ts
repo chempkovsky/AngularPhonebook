@@ -56,6 +56,7 @@ export class AspnetuserrolesViewSformComponent implements OnInit, AfterViewInit,
 
     @Input('caption') caption: string = $localize`:User Roles@@AspnetuserrolesViewSformComponent.caption:User Roles`;
 
+
     clmnCptnsaspnetuserrolesView: {[key:string]: string}  = {
         'userId': $localize`:User Id@@aspnetuserrolesView.userId-Name:User Id`,
         'roleId': $localize`:Role Id@@aspnetuserrolesView.roleId-Name:Role Id`,
@@ -421,7 +422,7 @@ export class AspnetuserrolesViewSformComponent implements OnInit, AfterViewInit,
         let r: {id: string; f: {[key: string]: string}|any; csc: string; pgi: number; pgsz: number} = {id: this.curIndexMenuItemsData.id, f: undefined, csc:this.currentSortColumn, pgi: this.currentPageIndex, pgsz: this.currentPageSize};
         let kyvl: {[key: string]: string} = {};
         switch (r.id) {
-            case 'Primary':  
+            case 'scannByPrimary':  
                 if(flt) {
                     kyvl['data'] = JSON.stringify(flt);
                     r.f = kyvl;

@@ -56,6 +56,7 @@ export class AspnetuserViewSformComponent implements OnInit, AfterViewInit,  IEv
 
     @Input('caption') caption: string = $localize`:Users@@AspnetuserViewSformComponent.caption:Users`;
 
+
     clmnCptnsaspnetuserView: {[key:string]: string}  = {
         'id': $localize`:User Id@@aspnetuserView.id-Name:User Id`,
         'email': $localize`:User Email@@aspnetuserView.email-Name:User Email`,
@@ -444,7 +445,7 @@ export class AspnetuserViewSformComponent implements OnInit, AfterViewInit,  IEv
         let r: {id: string; f: {[key: string]: string}|any; csc: string; pgi: number; pgsz: number} = {id: this.curIndexMenuItemsData.id, f: undefined, csc:this.currentSortColumn, pgi: this.currentPageIndex, pgsz: this.currentPageSize};
         let kyvl: {[key: string]: string} = {};
         switch (r.id) {
-            case 'Primary':  
+            case 'scannByPrimary':  
                 if(flt) {
                     kyvl['data'] = JSON.stringify(flt);
                     r.f = kyvl;

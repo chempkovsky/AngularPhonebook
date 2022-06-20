@@ -56,6 +56,7 @@ export class AspnetroleViewSformComponent implements OnInit, AfterViewInit,  IEv
 
     @Input('caption') caption: string = $localize`:Roles@@AspnetroleViewSformComponent.caption:Roles`;
 
+
     clmnCptnsaspnetroleView: {[key:string]: string}  = {
         'id': $localize`:Role Id@@aspnetroleView.id-Name:Role Id`,
         'name': $localize`:Role Name@@aspnetroleView.name-Name:Role Name`,
@@ -453,13 +454,13 @@ export class AspnetroleViewSformComponent implements OnInit, AfterViewInit,  IEv
         let r: {id: string; f: {[key: string]: string}|any; csc: string; pgi: number; pgsz: number} = {id: this.curIndexMenuItemsData.id, f: undefined, csc:this.currentSortColumn, pgi: this.currentPageIndex, pgsz: this.currentPageSize};
         let kyvl: {[key: string]: string} = {};
         switch (r.id) {
-            case 'UnqName':  
+            case 'scannByUnqName':  
                 if(flt) {
                     kyvl['data'] = JSON.stringify(flt);
                     r.f = kyvl;
                 }
                 break;           
-            case 'Primary':  
+            case 'scannByPrimary':  
                 if(flt) {
                     kyvl['data'] = JSON.stringify(flt);
                     r.f = kyvl;

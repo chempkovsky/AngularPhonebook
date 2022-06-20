@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="ru" date="2022-06-18T15:48:23Z">
+  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="ru" date="2022-06-20T16:19:41Z">
     <body>
       <trans-unit id="AppComponent.Home" datatype="html">
         <source>Home</source>
@@ -1627,7 +1627,7 @@
         <source>Model Id</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetmodel-view/sform/aspnetmodel-view-sform.component.ts</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">61</context>
         </context-group>
         <note priority="1" from="description">Model Id</note>
         <target>Идентификатор модели</target>
@@ -1636,7 +1636,7 @@
         <source>Model Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetmodel-view/sform/aspnetmodel-view-sform.component.ts</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="linenumber">62</context>
         </context-group>
         <note priority="1" from="description">Model Name</note>
         <target>Название модели</target>
@@ -1645,7 +1645,7 @@
         <source>Model Description</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetmodel-view/sform/aspnetmodel-view-sform.component.ts</context>
-          <context context-type="linenumber">62</context>
+          <context context-type="linenumber">63</context>
         </context-group>
         <note priority="1" from="description">Model Description</note>
         <target>Описание модели</target>
@@ -1654,7 +1654,7 @@
         <source>full scan</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetmodel-view/sform/aspnetmodel-view-sform.component.ts</context>
-          <context context-type="linenumber">67</context>
+          <context context-type="linenumber">68</context>
         </context-group>
         <note priority="1" from="description">full scan</note>
         <target>полное сканирование</target>
@@ -1663,7 +1663,7 @@
         <source>filter by Primary</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetmodel-view/sform/aspnetmodel-view-sform.component.ts</context>
-          <context context-type="linenumber">68</context>
+          <context context-type="linenumber">69</context>
         </context-group>
         <note priority="1" from="description">filter by Primary</note>
         <target>Фильтр по первичным</target>
@@ -2392,7 +2392,7 @@
         <source>Role Id</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetrole-view/sform/aspnetrole-view-sform.component.ts</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">61</context>
         </context-group>
         <note priority="1" from="description">Role Id</note>
         <target>Роль идентификатор</target>
@@ -2401,7 +2401,7 @@
         <source>Role Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetrole-view/sform/aspnetrole-view-sform.component.ts</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="linenumber">62</context>
         </context-group>
         <note priority="1" from="description">Role Name</note>
         <target>Роль имя</target>
@@ -2410,7 +2410,7 @@
         <source>full scan</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetrole-view/sform/aspnetrole-view-sform.component.ts</context>
-          <context context-type="linenumber">66</context>
+          <context context-type="linenumber">67</context>
         </context-group>
         <note priority="1" from="description">full scan</note>
         <target>полное сканирование</target>
@@ -2419,7 +2419,7 @@
         <source>filter by UnqName</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetrole-view/sform/aspnetrole-view-sform.component.ts</context>
-          <context context-type="linenumber">67</context>
+          <context context-type="linenumber">68</context>
         </context-group>
         <note priority="1" from="description">filter by UnqName</note>
         <target>Фильтр от unqname</target>
@@ -2428,7 +2428,7 @@
         <source>filter by Primary</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetrole-view/sform/aspnetrole-view-sform.component.ts</context>
-          <context context-type="linenumber">68</context>
+          <context context-type="linenumber">69</context>
         </context-group>
         <note priority="1" from="description">filter by Primary</note>
         <target>Фильтр по первичным</target>
@@ -3454,7 +3454,7 @@
         <source>Role Description</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetrolemask-view/sform/aspnetrolemask-view-sform.component.ts</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">61</context>
         </context-group>
         <note priority="1" from="description">Role Description</note>
         <target>Описание роли</target>
@@ -3463,7 +3463,7 @@
         <source>Permission to Sel</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetrolemask-view/sform/aspnetrolemask-view-sform.component.ts</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="linenumber">62</context>
         </context-group>
         <note priority="1" from="description">Permission to Sel</note>
         <target>Разрешение на Sel</target>
@@ -3472,7 +3472,7 @@
         <source>Permission to Del</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetrolemask-view/sform/aspnetrolemask-view-sform.component.ts</context>
-          <context context-type="linenumber">62</context>
+          <context context-type="linenumber">63</context>
         </context-group>
         <note priority="1" from="description">Permission to Del</note>
         <target>Разрешение на Del</target>
@@ -3481,7 +3481,7 @@
         <source>Permission to Upd</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetrolemask-view/sform/aspnetrolemask-view-sform.component.ts</context>
-          <context context-type="linenumber">63</context>
+          <context context-type="linenumber">64</context>
         </context-group>
         <note priority="1" from="description">Permission to Upd</note>
         <target>Разрешение на Upd</target>
@@ -3490,7 +3490,7 @@
         <source>Permission to Add</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetrolemask-view/sform/aspnetrolemask-view-sform.component.ts</context>
-          <context context-type="linenumber">64</context>
+          <context context-type="linenumber">65</context>
         </context-group>
         <note priority="1" from="description">Permission to Add</note>
         <target>Разрешение на добавление</target>
@@ -3499,7 +3499,7 @@
         <source>Full scan permission</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetrolemask-view/sform/aspnetrolemask-view-sform.component.ts</context>
-          <context context-type="linenumber">65</context>
+          <context context-type="linenumber">66</context>
         </context-group>
         <note priority="1" from="description">Full scan permission</note>
         <target>Полное разрешение на сканирование</target>
@@ -3508,7 +3508,7 @@
         <source>Model Id</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetrolemask-view/sform/aspnetrolemask-view-sform.component.ts</context>
-          <context context-type="linenumber">66</context>
+          <context context-type="linenumber">67</context>
         </context-group>
         <note priority="1" from="description">Model Id</note>
         <target>Идентификатор модели</target>
@@ -3517,7 +3517,7 @@
         <source>Model Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetrolemask-view/sform/aspnetrolemask-view-sform.component.ts</context>
-          <context context-type="linenumber">67</context>
+          <context context-type="linenumber">68</context>
         </context-group>
         <note priority="1" from="description">Model Name</note>
         <target>Название модели</target>
@@ -3526,7 +3526,7 @@
         <source>Role Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetrolemask-view/sform/aspnetrolemask-view-sform.component.ts</context>
-          <context context-type="linenumber">68</context>
+          <context context-type="linenumber">69</context>
         </context-group>
         <note priority="1" from="description">Role Name</note>
         <target>Роль имя</target>
@@ -3535,7 +3535,7 @@
         <source>full scan</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetrolemask-view/sform/aspnetrolemask-view-sform.component.ts</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">74</context>
         </context-group>
         <note priority="1" from="description">full scan</note>
         <target>полное сканирование</target>
@@ -3544,7 +3544,7 @@
         <source>filter by Primary</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetrolemask-view/sform/aspnetrolemask-view-sform.component.ts</context>
-          <context context-type="linenumber">74</context>
+          <context context-type="linenumber">75</context>
         </context-group>
         <note priority="1" from="description">filter by Primary</note>
         <target>Фильтр по первичным</target>
@@ -4885,7 +4885,7 @@
         <source>User Id</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetuser-view/sform/aspnetuser-view-sform.component.ts</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">61</context>
         </context-group>
         <note priority="1" from="description">User Id</note>
         <target>ID пользователя</target>
@@ -4894,7 +4894,7 @@
         <source>User Email</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetuser-view/sform/aspnetuser-view-sform.component.ts</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="linenumber">62</context>
         </context-group>
         <note priority="1" from="description">User Email</note>
         <target>Пользовательская электронная почта</target>
@@ -4903,7 +4903,7 @@
         <source>Email Confirmed</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetuser-view/sform/aspnetuser-view-sform.component.ts</context>
-          <context context-type="linenumber">62</context>
+          <context context-type="linenumber">63</context>
         </context-group>
         <note priority="1" from="description">Email Confirmed</note>
         <target>Электронная почта подтверждена</target>
@@ -4912,7 +4912,7 @@
         <source>Phone Number</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetuser-view/sform/aspnetuser-view-sform.component.ts</context>
-          <context context-type="linenumber">63</context>
+          <context context-type="linenumber">64</context>
         </context-group>
         <note priority="1" from="description">Phone Number</note>
         <target>Номер телефона</target>
@@ -4921,7 +4921,7 @@
         <source>Phone Number Confirmed</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetuser-view/sform/aspnetuser-view-sform.component.ts</context>
-          <context context-type="linenumber">64</context>
+          <context context-type="linenumber">65</context>
         </context-group>
         <note priority="1" from="description">Phone Number Confirmed</note>
         <target>Номер телефона подтвержден</target>
@@ -4930,7 +4930,7 @@
         <source>Two Factor Enabled</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetuser-view/sform/aspnetuser-view-sform.component.ts</context>
-          <context context-type="linenumber">65</context>
+          <context context-type="linenumber">66</context>
         </context-group>
         <note priority="1" from="description">Two Factor Enabled</note>
         <target>Два фактора включено</target>
@@ -4939,7 +4939,7 @@
         <source>Lockout End</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetuser-view/sform/aspnetuser-view-sform.component.ts</context>
-          <context context-type="linenumber">66</context>
+          <context context-type="linenumber">67</context>
         </context-group>
         <note priority="1" from="description">Lockout End</note>
         <target>Конец блокировки</target>
@@ -4948,7 +4948,7 @@
         <source>Lockout Enabled</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetuser-view/sform/aspnetuser-view-sform.component.ts</context>
-          <context context-type="linenumber">67</context>
+          <context context-type="linenumber">68</context>
         </context-group>
         <note priority="1" from="description">Lockout Enabled</note>
         <target>Блокировка включена</target>
@@ -4957,7 +4957,7 @@
         <source>Access Failed Count</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetuser-view/sform/aspnetuser-view-sform.component.ts</context>
-          <context context-type="linenumber">68</context>
+          <context context-type="linenumber">69</context>
         </context-group>
         <note priority="1" from="description">Access Failed Count</note>
         <target>Доступ не удалось</target>
@@ -4966,7 +4966,7 @@
         <source>User Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetuser-view/sform/aspnetuser-view-sform.component.ts</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="linenumber">70</context>
         </context-group>
         <note priority="1" from="description">User Name</note>
         <target>Имя пользователя</target>
@@ -4975,7 +4975,7 @@
         <source>full scan</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetuser-view/sform/aspnetuser-view-sform.component.ts</context>
-          <context context-type="linenumber">74</context>
+          <context context-type="linenumber">75</context>
         </context-group>
         <note priority="1" from="description">full scan</note>
         <target>полное сканирование</target>
@@ -4984,7 +4984,7 @@
         <source>filter by Primary</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetuser-view/sform/aspnetuser-view-sform.component.ts</context>
-          <context context-type="linenumber">75</context>
+          <context context-type="linenumber">76</context>
         </context-group>
         <note priority="1" from="description">filter by Primary</note>
         <target>Фильтр по первичным</target>
@@ -5326,7 +5326,7 @@
         <source>User Id</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetusermask-view/sform/aspnetusermask-view-sform.component.ts</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">61</context>
         </context-group>
         <note priority="1" from="description">User Id</note>
         <target>ID пользователя</target>
@@ -5335,7 +5335,7 @@
         <source>Permission to Sel</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetusermask-view/sform/aspnetusermask-view-sform.component.ts</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="linenumber">62</context>
         </context-group>
         <note priority="1" from="description">Permission to Sel</note>
         <target>Разрешение на Sel</target>
@@ -5344,7 +5344,7 @@
         <source>Permission to Del</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetusermask-view/sform/aspnetusermask-view-sform.component.ts</context>
-          <context context-type="linenumber">62</context>
+          <context context-type="linenumber">63</context>
         </context-group>
         <note priority="1" from="description">Permission to Del</note>
         <target>Разрешение на Del</target>
@@ -5353,7 +5353,7 @@
         <source>Permission to Upd</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetusermask-view/sform/aspnetusermask-view-sform.component.ts</context>
-          <context context-type="linenumber">63</context>
+          <context context-type="linenumber">64</context>
         </context-group>
         <note priority="1" from="description">Permission to Upd</note>
         <target>Разрешение на Upd</target>
@@ -5362,7 +5362,7 @@
         <source>Permission to Add</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetusermask-view/sform/aspnetusermask-view-sform.component.ts</context>
-          <context context-type="linenumber">64</context>
+          <context context-type="linenumber">65</context>
         </context-group>
         <note priority="1" from="description">Permission to Add</note>
         <target>Разрешение на добавление</target>
@@ -5371,7 +5371,7 @@
         <source>Full scan permission</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetusermask-view/sform/aspnetusermask-view-sform.component.ts</context>
-          <context context-type="linenumber">65</context>
+          <context context-type="linenumber">66</context>
         </context-group>
         <note priority="1" from="description">Full scan permission</note>
         <target>Полное разрешение на сканирование</target>
@@ -5380,7 +5380,7 @@
         <source>Model Id</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetusermask-view/sform/aspnetusermask-view-sform.component.ts</context>
-          <context context-type="linenumber">66</context>
+          <context context-type="linenumber">67</context>
         </context-group>
         <note priority="1" from="description">Model Id</note>
         <target>Идентификатор модели</target>
@@ -5389,7 +5389,7 @@
         <source>User Email</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetusermask-view/sform/aspnetusermask-view-sform.component.ts</context>
-          <context context-type="linenumber">67</context>
+          <context context-type="linenumber">68</context>
         </context-group>
         <note priority="1" from="description">User Email</note>
         <target>Пользовательская электронная почта</target>
@@ -5398,7 +5398,7 @@
         <source>User Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetusermask-view/sform/aspnetusermask-view-sform.component.ts</context>
-          <context context-type="linenumber">68</context>
+          <context context-type="linenumber">69</context>
         </context-group>
         <note priority="1" from="description">User Name</note>
         <target>Имя пользователя</target>
@@ -5407,7 +5407,7 @@
         <source>Model Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetusermask-view/sform/aspnetusermask-view-sform.component.ts</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="linenumber">70</context>
         </context-group>
         <note priority="1" from="description">Model Name</note>
         <target>Название модели</target>
@@ -5416,7 +5416,7 @@
         <source>full scan</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetusermask-view/sform/aspnetusermask-view-sform.component.ts</context>
-          <context context-type="linenumber">74</context>
+          <context context-type="linenumber">75</context>
         </context-group>
         <note priority="1" from="description">full scan</note>
         <target>полное сканирование</target>
@@ -6082,7 +6082,7 @@
         <source>User Id</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetuserroles-view/sform/aspnetuserroles-view-sform.component.ts</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">61</context>
         </context-group>
         <note priority="1" from="description">User Id</note>
         <target>ID пользователя</target>
@@ -6091,7 +6091,7 @@
         <source>Role Id</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetuserroles-view/sform/aspnetuserroles-view-sform.component.ts</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="linenumber">62</context>
         </context-group>
         <note priority="1" from="description">Role Id</note>
         <target>Роль идентификатор</target>
@@ -6100,7 +6100,7 @@
         <source>Lockout End</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetuserroles-view/sform/aspnetuserroles-view-sform.component.ts</context>
-          <context context-type="linenumber">62</context>
+          <context context-type="linenumber">63</context>
         </context-group>
         <note priority="1" from="description">Lockout End</note>
         <target>Конец блокировки</target>
@@ -6109,7 +6109,7 @@
         <source>User Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetuserroles-view/sform/aspnetuserroles-view-sform.component.ts</context>
-          <context context-type="linenumber">63</context>
+          <context context-type="linenumber">64</context>
         </context-group>
         <note priority="1" from="description">User Name</note>
         <target>Имя пользователя</target>
@@ -6118,7 +6118,7 @@
         <source>Role Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetuserroles-view/sform/aspnetuserroles-view-sform.component.ts</context>
-          <context context-type="linenumber">64</context>
+          <context context-type="linenumber">65</context>
         </context-group>
         <note priority="1" from="description">Role Name</note>
         <target>Роль имя</target>
@@ -6127,7 +6127,7 @@
         <source>full scan</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetuserroles-view/sform/aspnetuserroles-view-sform.component.ts</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="linenumber">70</context>
         </context-group>
         <note priority="1" from="description">full scan</note>
         <target>полное сканирование</target>
@@ -6136,7 +6136,7 @@
         <source>filter by Primary</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/aspnetuserroles-view/sform/aspnetuserroles-view-sform.component.ts</context>
-          <context context-type="linenumber">70</context>
+          <context context-type="linenumber">71</context>
         </context-group>
         <note priority="1" from="description">filter by Primary</note>
         <target>Фильтр по первичным</target>
@@ -7000,7 +7000,7 @@
         <source>Id of the Division</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-division-view/sform/phbk-division-view-sform.component.ts</context>
-          <context context-type="linenumber">72</context>
+          <context context-type="linenumber">73</context>
         </context-group>
         <note priority="1" from="description">Id of the Division</note>
         <target>Идентификатор подразделения</target>
@@ -7009,7 +7009,7 @@
         <source>Name of the Division</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-division-view/sform/phbk-division-view-sform.component.ts</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">74</context>
         </context-group>
         <note priority="1" from="description">Name of the Division</note>
         <target>Название подразделения</target>
@@ -7018,7 +7018,7 @@
         <source>Description of the Division</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-division-view/sform/phbk-division-view-sform.component.ts</context>
-          <context context-type="linenumber">74</context>
+          <context context-type="linenumber">75</context>
         </context-group>
         <note priority="1" from="description">Description of the Division</note>
         <target>Описание разделения</target>
@@ -7027,7 +7027,7 @@
         <source>Id of the Enterprise</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-division-view/sform/phbk-division-view-sform.component.ts</context>
-          <context context-type="linenumber">75</context>
+          <context context-type="linenumber">76</context>
         </context-group>
         <note priority="1" from="description">Id of the Enterprise</note>
         <target>Удостоверение личности предприятия</target>
@@ -7036,7 +7036,7 @@
         <source>Name of the Enterprise</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-division-view/sform/phbk-division-view-sform.component.ts</context>
-          <context context-type="linenumber">76</context>
+          <context context-type="linenumber">77</context>
         </context-group>
         <note priority="1" from="description">Name of the Enterprise</note>
         <target>Имя предприятия</target>
@@ -7045,7 +7045,7 @@
         <source>Name of the Division</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-division-view/sform/phbk-division-view-sform.component.ts</context>
-          <context context-type="linenumber">80</context>
+          <context context-type="linenumber">81</context>
         </context-group>
         <note priority="1" from="description">Name of the Division</note>
         <target>Название подразделения</target>
@@ -7054,7 +7054,7 @@
         <source>full scan</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-division-view/sform/phbk-division-view-sform.component.ts</context>
-          <context context-type="linenumber">84</context>
+          <context context-type="linenumber">85</context>
         </context-group>
         <note priority="1" from="description">full scan</note>
         <target>полное сканирование</target>
@@ -7063,7 +7063,7 @@
         <source>filter by Primary</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-division-view/sform/phbk-division-view-sform.component.ts</context>
-          <context context-type="linenumber">85</context>
+          <context context-type="linenumber">86</context>
         </context-group>
         <note priority="1" from="description">filter by Primary</note>
         <target>Фильтр по первичным</target>
@@ -7072,7 +7072,7 @@
         <source>filter by Division Name ref01</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-division-view/sform/phbk-division-view-sform.component.ts</context>
-          <context context-type="linenumber">86</context>
+          <context context-type="linenumber">87</context>
         </context-group>
         <note priority="1" from="description">filter by Division Name ref01</note>
         <target>Фильтр по названию подразделения Ref01</target>
@@ -7081,7 +7081,7 @@
         <source>filter by Division Name ref02</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-division-view/sform/phbk-division-view-sform.component.ts</context>
-          <context context-type="linenumber">87</context>
+          <context context-type="linenumber">88</context>
         </context-group>
         <note priority="1" from="description">filter by Division Name ref02</note>
         <target>Фильтр по названию подразделения Ref02</target>
@@ -7090,11 +7090,11 @@
         <source>Could not apply filter as not all attributes are set</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-division-view/sform/phbk-division-view-sform.component.ts</context>
-          <context context-type="linenumber">798</context>
+          <context context-type="linenumber">799</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-division-view/sform/phbk-division-view-sform.component.ts</context>
-          <context context-type="linenumber">968</context>
+          <context context-type="linenumber">969</context>
         </context-group>
         <note priority="1" from="description">Could not apply filter as not all attributes are set</note>
         <target>Не удалось применить фильтр, поскольку не все атрибуты установлены</target>
@@ -8102,7 +8102,7 @@
         <source>Id of the Employee</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-employee-view/sform/phbk-employee-view-sform.component.ts</context>
-          <context context-type="linenumber">80</context>
+          <context context-type="linenumber">81</context>
         </context-group>
         <note priority="1" from="description">Id of the Employee</note>
         <target>Удостоверение личности сотрудника</target>
@@ -8111,7 +8111,7 @@
         <source>Employee First Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-employee-view/sform/phbk-employee-view-sform.component.ts</context>
-          <context context-type="linenumber">81</context>
+          <context context-type="linenumber">82</context>
         </context-group>
         <note priority="1" from="description">Employee First Name</note>
         <target>Имя сотрудника</target>
@@ -8120,7 +8120,7 @@
         <source>Employee Last Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-employee-view/sform/phbk-employee-view-sform.component.ts</context>
-          <context context-type="linenumber">82</context>
+          <context context-type="linenumber">83</context>
         </context-group>
         <note priority="1" from="description">Employee Last Name</note>
         <target>Фамилия сотрудника</target>
@@ -8129,7 +8129,7 @@
         <source>Employee Second Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-employee-view/sform/phbk-employee-view-sform.component.ts</context>
-          <context context-type="linenumber">83</context>
+          <context context-type="linenumber">84</context>
         </context-group>
         <note priority="1" from="description">Employee Second Name</note>
         <target>Второе имя сотрудника</target>
@@ -8138,7 +8138,7 @@
         <source>Id of the Division</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-employee-view/sform/phbk-employee-view-sform.component.ts</context>
-          <context context-type="linenumber">84</context>
+          <context context-type="linenumber">85</context>
         </context-group>
         <note priority="1" from="description">Id of the Division</note>
         <target>Идентификатор подразделения</target>
@@ -8147,7 +8147,7 @@
         <source>Name of the Division</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-employee-view/sform/phbk-employee-view-sform.component.ts</context>
-          <context context-type="linenumber">85</context>
+          <context context-type="linenumber">86</context>
         </context-group>
         <note priority="1" from="description">Name of the Division</note>
         <target>Название подразделения</target>
@@ -8156,7 +8156,7 @@
         <source>Name of the Enterprise</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-employee-view/sform/phbk-employee-view-sform.component.ts</context>
-          <context context-type="linenumber">86</context>
+          <context context-type="linenumber">87</context>
         </context-group>
         <note priority="1" from="description">Name of the Enterprise</note>
         <target>Имя предприятия</target>
@@ -8165,7 +8165,7 @@
         <source>Employee Last Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-employee-view/sform/phbk-employee-view-sform.component.ts</context>
-          <context context-type="linenumber">90</context>
+          <context context-type="linenumber">91</context>
         </context-group>
         <note priority="1" from="description">Employee Last Name</note>
         <target>Фамилия сотрудника</target>
@@ -8174,7 +8174,7 @@
         <source>Employee First Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-employee-view/sform/phbk-employee-view-sform.component.ts</context>
-          <context context-type="linenumber">93</context>
+          <context context-type="linenumber">94</context>
         </context-group>
         <note priority="1" from="description">Employee First Name</note>
         <target>Имя сотрудника</target>
@@ -8183,7 +8183,7 @@
         <source>Employee Second Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-employee-view/sform/phbk-employee-view-sform.component.ts</context>
-          <context context-type="linenumber">96</context>
+          <context context-type="linenumber">97</context>
         </context-group>
         <note priority="1" from="description">Employee Second Name</note>
         <target>Второе имя сотрудника</target>
@@ -8192,7 +8192,7 @@
         <source>full scan</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-employee-view/sform/phbk-employee-view-sform.component.ts</context>
-          <context context-type="linenumber">100</context>
+          <context context-type="linenumber">101</context>
         </context-group>
         <note priority="1" from="description">full scan</note>
         <target>полное сканирование</target>
@@ -8201,7 +8201,7 @@
         <source>filter by Primary</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-employee-view/sform/phbk-employee-view-sform.component.ts</context>
-          <context context-type="linenumber">101</context>
+          <context context-type="linenumber">102</context>
         </context-group>
         <note priority="1" from="description">filter by Primary</note>
         <target>Фильтр по первичным</target>
@@ -8210,7 +8210,7 @@
         <source>filter by Employee Dict Ref</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-employee-view/sform/phbk-employee-view-sform.component.ts</context>
-          <context context-type="linenumber">102</context>
+          <context context-type="linenumber">103</context>
         </context-group>
         <note priority="1" from="description">filter by Employee Dict Ref</note>
         <target>Фильтр работником Dict ref</target>
@@ -8219,7 +8219,7 @@
         <source>filter by Employee Dict Ref</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-employee-view/sform/phbk-employee-view-sform.component.ts</context>
-          <context context-type="linenumber">103</context>
+          <context context-type="linenumber">104</context>
         </context-group>
         <note priority="1" from="description">filter by Employee Dict Ref</note>
         <target>Фильтр работником Dict ref</target>
@@ -8228,11 +8228,11 @@
         <source>Could not apply filter as not all attributes are set</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-employee-view/sform/phbk-employee-view-sform.component.ts</context>
-          <context context-type="linenumber">895</context>
+          <context context-type="linenumber">896</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-employee-view/sform/phbk-employee-view-sform.component.ts</context>
-          <context context-type="linenumber">1149</context>
+          <context context-type="linenumber">1150</context>
         </context-group>
         <note priority="1" from="description">Could not apply filter as not all attributes are set</note>
         <target>Не удалось применить фильтр, поскольку не все атрибуты установлены</target>
@@ -9006,7 +9006,7 @@
         <source>Id of the Enterprise</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-enterprise-view/sform/phbk-enterprise-view-sform.component.ts</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">61</context>
         </context-group>
         <note priority="1" from="description">Id of the Enterprise</note>
         <target>Удостоверение личности предприятия</target>
@@ -9015,7 +9015,7 @@
         <source>Name of the Enterprise</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-enterprise-view/sform/phbk-enterprise-view-sform.component.ts</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="linenumber">62</context>
         </context-group>
         <note priority="1" from="description">Name of the Enterprise</note>
         <target>Имя предприятия</target>
@@ -9024,7 +9024,7 @@
         <source>Description of the Enterprise</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-enterprise-view/sform/phbk-enterprise-view-sform.component.ts</context>
-          <context context-type="linenumber">62</context>
+          <context context-type="linenumber">63</context>
         </context-group>
         <note priority="1" from="description">Description of the Enterprise</note>
         <target>Описание предприятия</target>
@@ -9033,7 +9033,7 @@
         <source>full scan</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-enterprise-view/sform/phbk-enterprise-view-sform.component.ts</context>
-          <context context-type="linenumber">67</context>
+          <context context-type="linenumber">68</context>
         </context-group>
         <note priority="1" from="description">full scan</note>
         <target>полное сканирование</target>
@@ -9042,7 +9042,7 @@
         <source>filter by EntrprsNameUK</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-enterprise-view/sform/phbk-enterprise-view-sform.component.ts</context>
-          <context context-type="linenumber">68</context>
+          <context context-type="linenumber">69</context>
         </context-group>
         <note priority="1" from="description">filter by EntrprsNameUK</note>
         <target>Фильтр от Entrprsnameuk</target>
@@ -9051,7 +9051,7 @@
         <source>filter by Primary</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-enterprise-view/sform/phbk-enterprise-view-sform.component.ts</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="linenumber">70</context>
         </context-group>
         <note priority="1" from="description">filter by Primary</note>
         <target>Фильтр по первичным</target>
@@ -9843,7 +9843,7 @@
         <source>Phone Type Id</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-type-view/sform/phbk-phone-type-view-sform.component.ts</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">61</context>
         </context-group>
         <note priority="1" from="description">Phone Type Id</note>
         <target>Идентификатор типа телефона</target>
@@ -9852,7 +9852,7 @@
         <source>Phone Type Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-type-view/sform/phbk-phone-type-view-sform.component.ts</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="linenumber">62</context>
         </context-group>
         <note priority="1" from="description">Phone Type Name</note>
         <target>Имя типа телефона</target>
@@ -9861,7 +9861,7 @@
         <source>Phone Type Description</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-type-view/sform/phbk-phone-type-view-sform.component.ts</context>
-          <context context-type="linenumber">62</context>
+          <context context-type="linenumber">63</context>
         </context-group>
         <note priority="1" from="description">Phone Type Description</note>
         <target>Описание типа телефона</target>
@@ -9870,7 +9870,7 @@
         <source>full scan</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-type-view/sform/phbk-phone-type-view-sform.component.ts</context>
-          <context context-type="linenumber">67</context>
+          <context context-type="linenumber">68</context>
         </context-group>
         <note priority="1" from="description">full scan</note>
         <target>полное сканирование</target>
@@ -9879,7 +9879,7 @@
         <source>filter by Primary</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-type-view/sform/phbk-phone-type-view-sform.component.ts</context>
-          <context context-type="linenumber">68</context>
+          <context context-type="linenumber">69</context>
         </context-group>
         <note priority="1" from="description">filter by Primary</note>
         <target>Фильтр по первичным</target>
@@ -10977,7 +10977,7 @@
         <source>Phone Id</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-view/sform/phbk-phone-view-sform.component.ts</context>
-          <context context-type="linenumber">80</context>
+          <context context-type="linenumber">81</context>
         </context-group>
         <note priority="1" from="description">Phone Id</note>
         <target>Телефон идентификатор</target>
@@ -10986,7 +10986,7 @@
         <source>Phone</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-view/sform/phbk-phone-view-sform.component.ts</context>
-          <context context-type="linenumber">81</context>
+          <context context-type="linenumber">82</context>
         </context-group>
         <note priority="1" from="description">Phone</note>
         <target>Телефон</target>
@@ -10995,7 +10995,7 @@
         <source>Phone Type Id</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-view/sform/phbk-phone-view-sform.component.ts</context>
-          <context context-type="linenumber">82</context>
+          <context context-type="linenumber">83</context>
         </context-group>
         <note priority="1" from="description">Phone Type Id</note>
         <target>Идентификатор типа телефона</target>
@@ -11004,7 +11004,7 @@
         <source>Id of the Employee</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-view/sform/phbk-phone-view-sform.component.ts</context>
-          <context context-type="linenumber">83</context>
+          <context context-type="linenumber">84</context>
         </context-group>
         <note priority="1" from="description">Id of the Employee</note>
         <target>Удостоверение личности сотрудника</target>
@@ -11013,7 +11013,7 @@
         <source>Phone Type Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-view/sform/phbk-phone-view-sform.component.ts</context>
-          <context context-type="linenumber">84</context>
+          <context context-type="linenumber">85</context>
         </context-group>
         <note priority="1" from="description">Phone Type Name</note>
         <target>Имя типа телефона</target>
@@ -11022,7 +11022,7 @@
         <source>Employee First Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-view/sform/phbk-phone-view-sform.component.ts</context>
-          <context context-type="linenumber">85</context>
+          <context context-type="linenumber">86</context>
         </context-group>
         <note priority="1" from="description">Employee First Name</note>
         <target>Имя сотрудника</target>
@@ -11031,7 +11031,7 @@
         <source>Employee Last Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-view/sform/phbk-phone-view-sform.component.ts</context>
-          <context context-type="linenumber">86</context>
+          <context context-type="linenumber">87</context>
         </context-group>
         <note priority="1" from="description">Employee Last Name</note>
         <target>Фамилия сотрудника</target>
@@ -11040,7 +11040,7 @@
         <source>Employee Second Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-view/sform/phbk-phone-view-sform.component.ts</context>
-          <context context-type="linenumber">87</context>
+          <context context-type="linenumber">88</context>
         </context-group>
         <note priority="1" from="description">Employee Second Name</note>
         <target>Второе имя сотрудника</target>
@@ -11049,7 +11049,7 @@
         <source>Name of the Division</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-view/sform/phbk-phone-view-sform.component.ts</context>
-          <context context-type="linenumber">88</context>
+          <context context-type="linenumber">89</context>
         </context-group>
         <note priority="1" from="description">Name of the Division</note>
         <target>Название подразделения</target>
@@ -11058,7 +11058,7 @@
         <source>Name of the Enterprise</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-view/sform/phbk-phone-view-sform.component.ts</context>
-          <context context-type="linenumber">89</context>
+          <context context-type="linenumber">90</context>
         </context-group>
         <note priority="1" from="description">Name of the Enterprise</note>
         <target>Имя предприятия</target>
@@ -11067,7 +11067,7 @@
         <source>Phone</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-view/sform/phbk-phone-view-sform.component.ts</context>
-          <context context-type="linenumber">93</context>
+          <context context-type="linenumber">94</context>
         </context-group>
         <note priority="1" from="description">Phone</note>
         <target>Телефон</target>
@@ -11076,7 +11076,7 @@
         <source>full scan</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-view/sform/phbk-phone-view-sform.component.ts</context>
-          <context context-type="linenumber">97</context>
+          <context context-type="linenumber">98</context>
         </context-group>
         <note priority="1" from="description">full scan</note>
         <target>полное сканирование</target>
@@ -11085,7 +11085,7 @@
         <source>filter by Primary</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-view/sform/phbk-phone-view-sform.component.ts</context>
-          <context context-type="linenumber">98</context>
+          <context context-type="linenumber">99</context>
         </context-group>
         <note priority="1" from="description">filter by Primary</note>
         <target>Фильтр по первичным</target>
@@ -11094,7 +11094,7 @@
         <source>filter by Phone Dict Ref</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-view/sform/phbk-phone-view-sform.component.ts</context>
-          <context context-type="linenumber">99</context>
+          <context context-type="linenumber">100</context>
         </context-group>
         <note priority="1" from="description">filter by Phone Dict Ref</note>
         <target>Фильтр по телефону Dict ref</target>
@@ -11103,7 +11103,7 @@
         <source>filter by Phone Dict Ref</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-view/sform/phbk-phone-view-sform.component.ts</context>
-          <context context-type="linenumber">100</context>
+          <context context-type="linenumber">101</context>
         </context-group>
         <note priority="1" from="description">filter by Phone Dict Ref</note>
         <target>Фильтр по телефону Dict ref</target>
@@ -11112,7 +11112,7 @@
         <source>filter by Phone Dict Ref</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-view/sform/phbk-phone-view-sform.component.ts</context>
-          <context context-type="linenumber">101</context>
+          <context context-type="linenumber">102</context>
         </context-group>
         <note priority="1" from="description">filter by Phone Dict Ref</note>
         <target>Фильтр по телефону Dict ref</target>
@@ -11121,7 +11121,7 @@
         <source>filter by Phone Dict Ref</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-view/sform/phbk-phone-view-sform.component.ts</context>
-          <context context-type="linenumber">102</context>
+          <context context-type="linenumber">103</context>
         </context-group>
         <note priority="1" from="description">filter by Phone Dict Ref</note>
         <target>Фильтр по телефону Dict ref</target>
@@ -11130,19 +11130,19 @@
         <source>Could not apply filter as not all attributes are set</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-view/sform/phbk-phone-view-sform.component.ts</context>
-          <context context-type="linenumber">907</context>
+          <context context-type="linenumber">908</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-view/sform/phbk-phone-view-sform.component.ts</context>
-          <context context-type="linenumber">1077</context>
+          <context context-type="linenumber">1078</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-view/sform/phbk-phone-view-sform.component.ts</context>
-          <context context-type="linenumber">1247</context>
+          <context context-type="linenumber">1248</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/phbk-phone-view/sform/phbk-phone-view-sform.component.ts</context>
-          <context context-type="linenumber">1417</context>
+          <context context-type="linenumber">1418</context>
         </context-group>
         <note priority="1" from="description">Could not apply filter as not all attributes are set</note>
         <target>Не удалось применить фильтр, поскольку не все атрибуты установлены</target>
@@ -11981,7 +11981,7 @@
         <note priority="1" from="description">Number of columns</note>
         <target>Число столбцов</target>
       </trans-unit>
-      <trans-unit id=".Navigate-back-to-master" datatype="html">
+      <trans-unit id="UniqServiceFilterComponent.Navigate-back-to-master" datatype="html">
         <source>Navigate back to master</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/uniq-service-filter/uniq-service-filter.component.html</context>
@@ -11990,15 +11990,11 @@
         <note priority="1" from="description">Navigate back to master</note>
         <target>Перейдите обратно к мастеру</target>
       </trans-unit>
-      <trans-unit id=".Apply-filter" datatype="html">
+      <trans-unit id="UniqServiceFilterComponent.Apply-filter" datatype="html">
         <source>Apply filter</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/uniq-service-filter/uniq-service-filter.component.html</context>
-          <context context-type="linenumber">10,13</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/components/web-service-filter/web-service-filter.component.html</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="linenumber">10,14</context>
         </context-group>
         <note priority="1" from="description">Apply filter</note>
         <target>Применить фильтр</target>
@@ -12007,7 +12003,7 @@
         <source>The value must be less than</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/uniq-service-filter/uniq-service-filter.component.ts</context>
-          <context context-type="linenumber">251</context>
+          <context context-type="linenumber">250</context>
         </context-group>
         <note priority="1" from="description">The value must be less than</note>
         <target>Значение должно быть меньше, чем</target>
@@ -12016,7 +12012,7 @@
         <source>The value must be greater than</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/uniq-service-filter/uniq-service-filter.component.ts</context>
-          <context context-type="linenumber">254</context>
+          <context context-type="linenumber">253</context>
         </context-group>
         <note priority="1" from="description">The value must be greater than</note>
         <target>Значение должно быть больше, чем</target>
@@ -12025,7 +12021,7 @@
         <source>Icorrect format</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/uniq-service-filter/uniq-service-filter.component.ts</context>
-          <context context-type="linenumber">257</context>
+          <context context-type="linenumber">256</context>
         </context-group>
         <note priority="1" from="description">Icorrect format</note>
         <target>ICRECTER FORMAT</target>
@@ -12034,7 +12030,7 @@
         <source>Value must be greater than</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/uniq-service-filter/uniq-service-filter.component.ts</context>
-          <context context-type="linenumber">260</context>
+          <context context-type="linenumber">259</context>
         </context-group>
         <note priority="1" from="description">Value must be greater than</note>
         <target>Ценность должна быть больше, чем</target>
@@ -12043,7 +12039,7 @@
         <source>Value must be less than</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/uniq-service-filter/uniq-service-filter.component.ts</context>
-          <context context-type="linenumber">263</context>
+          <context context-type="linenumber">262</context>
         </context-group>
         <note priority="1" from="description">Value must be less than</note>
         <target>Ценность должна быть меньше, чем</target>
@@ -12052,7 +12048,7 @@
         <source>Icorrect date format</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/uniq-service-filter/uniq-service-filter.component.ts</context>
-          <context context-type="linenumber">266</context>
+          <context context-type="linenumber">265</context>
         </context-group>
         <note priority="1" from="description">Icorrect date format</note>
         <target>Формат даты ICRECT</target>
@@ -12061,16 +12057,56 @@
         <source>Icorrect format</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/uniq-service-filter/uniq-service-filter.component.ts</context>
-          <context context-type="linenumber">269</context>
+          <context context-type="linenumber">268</context>
         </context-group>
         <note priority="1" from="description">Icorrect format</note>
         <target>ICRECTER FORMAT</target>
       </trans-unit>
-      <trans-unit id=".Remove-current-filter-item" datatype="html">
+      <trans-unit id="WebServiceFilterComponent.Apply-filter" datatype="html">
+        <source>Apply filter</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/web-service-filter/web-service-filter.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <note priority="1" from="description">Apply filter</note>
+        <target>Применить фильтр</target>
+      </trans-unit>
+      <trans-unit id="WebServiceFilterComponent.Column-name" datatype="html">
+        <source>Column name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/web-service-filter/web-service-filter.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <note priority="1" from="description">Column name</note>
+        <target>Название столбца</target>
+      </trans-unit>
+      <trans-unit id="WebServiceFilterComponent.Operator" datatype="html">
+        <source>Operator</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/web-service-filter/web-service-filter.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+        <note priority="1" from="description">Operator</note>
+        <target>Оператор</target>
+      </trans-unit>
+      <trans-unit id="WebServiceFilterComponent.Filter-value" datatype="html">
+        <source>Filter value</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/web-service-filter/web-service-filter.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/web-service-filter/web-service-filter.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+        <note priority="1" from="description">Filter value</note>
+        <target>Значение фильтра</target>
+      </trans-unit>
+      <trans-unit id="WebServiceFilterComponent.Remove-current-filter-item" datatype="html">
         <source>Remove current filter item</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/web-service-filter/web-service-filter.component.html</context>
-          <context context-type="linenumber">86</context>
+          <context context-type="linenumber">90</context>
         </context-group>
         <note priority="1" from="description">Remove current filter item</note>
         <target>Снимите текущий элемент фильтра</target>

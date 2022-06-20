@@ -76,6 +76,7 @@ export class PhbkPhoneViewSformComponent implements OnInit, AfterViewInit,  IEve
 
     @Input('caption') caption: string = $localize`:Phones@@PhbkPhoneViewSformComponent.caption:Phones`;
 
+
     clmnCptnsPhbkPhoneView: {[key:string]: string}  = {
         'phoneId': $localize`:Phone Id@@PhbkPhoneView.phoneId-Name:Phone Id`,
         'phone': $localize`:Phone@@PhbkPhoneView.phone-Name:Phone`,
@@ -653,7 +654,7 @@ export class PhbkPhoneViewSformComponent implements OnInit, AfterViewInit,  IEve
                 }
                 r.f = kyvl;
                 break;           
-            case 'Primary':  
+            case 'scannByPrimary':  
                 if(flt) {
                     kyvl['data'] = JSON.stringify(flt);
                     r.f = kyvl;

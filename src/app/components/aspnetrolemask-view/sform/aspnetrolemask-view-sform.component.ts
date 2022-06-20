@@ -56,6 +56,7 @@ export class AspnetrolemaskViewSformComponent implements OnInit, AfterViewInit, 
 
     @Input('caption') caption: string = $localize`:Role Masks@@AspnetrolemaskViewSformComponent.caption:Role Masks`;
 
+
     clmnCptnsaspnetrolemaskView: {[key:string]: string}  = {
         'roleDescription': $localize`:Role Description@@aspnetrolemaskView.roleDescription-Name:Role Description`,
         'mask1': $localize`:Permission to Sel@@aspnetrolemaskView.mask1-Name:Permission to Sel`,
@@ -424,7 +425,7 @@ export class AspnetrolemaskViewSformComponent implements OnInit, AfterViewInit, 
         let r: {id: string; f: {[key: string]: string}|any; csc: string; pgi: number; pgsz: number} = {id: this.curIndexMenuItemsData.id, f: undefined, csc:this.currentSortColumn, pgi: this.currentPageIndex, pgsz: this.currentPageSize};
         let kyvl: {[key: string]: string} = {};
         switch (r.id) {
-            case 'Primary':  
+            case 'scannByPrimary':  
                 if(flt) {
                     kyvl['data'] = JSON.stringify(flt);
                     r.f = kyvl;

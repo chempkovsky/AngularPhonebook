@@ -56,6 +56,7 @@ export class PhbkPhoneTypeViewSformComponent implements OnInit, AfterViewInit,  
 
     @Input('caption') caption: string = $localize`:Phone Types@@PhbkPhoneTypeViewSformComponent.caption:Phone Types`;
 
+
     clmnCptnsPhbkPhoneTypeView: {[key:string]: string}  = {
         'phoneTypeId': $localize`:Phone Type Id@@PhbkPhoneTypeView.phoneTypeId-Name:Phone Type Id`,
         'phoneTypeName': $localize`:Phone Type Name@@PhbkPhoneTypeView.phoneTypeName-Name:Phone Type Name`,
@@ -435,7 +436,7 @@ export class PhbkPhoneTypeViewSformComponent implements OnInit, AfterViewInit,  
         let r: {id: string; f: {[key: string]: string}|any; csc: string; pgi: number; pgsz: number} = {id: this.curIndexMenuItemsData.id, f: undefined, csc:this.currentSortColumn, pgi: this.currentPageIndex, pgsz: this.currentPageSize};
         let kyvl: {[key: string]: string} = {};
         switch (r.id) {
-            case 'Primary':  
+            case 'scannByPrimary':  
                 if(flt) {
                     kyvl['data'] = JSON.stringify(flt);
                     r.f = kyvl;
