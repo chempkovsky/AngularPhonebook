@@ -65,7 +65,7 @@
 ## Модули
 - FrontEnd модуль
   - Это данный модуль 
-  - реализован под **Angular 13**
+  - реализован под **Angular 13** + **Angular Material**
 - BackEnd модуль
   - Находится в отдельном репозитории [PhonebookSolution](https://github.com/chempkovsky/PhonebookSolution)
   - реализован под **Net 6** с использованием VS 2022
