@@ -61,6 +61,8 @@
 - #### [ rdform для ViewModel ](#rdform-для-ViewModel)
 - #### [ rlist для ViewModel ](#rlist-для-ViewModel)
 - #### [ rdlist для ViewModel ](#rdlist-для-ViewModel)
+### [ Proxy и Балансировщик нагрузки ](#Proxy-и-Балансировщик-нагрузки)
+
 
 ## Модули
 - FrontEnd модуль
@@ -1331,3 +1333,9 @@ docker-compose -f "docker-compose.yml" down
   - `Телефоны` 
   - потом `Телефоны DLg`
   - опять `Телефоны` 
+
+
+## Proxy и Балансировщик нагрузки
+- В данном Demo все WebApi сервисы "смотрят" наружу, т.е. решение имеет больше одного открытого порта.
+- читайте нашу статью с пошаговыми инструкциями [270 Nginx as load balancer and reverse proxy in Docker](https://github.com/chempkovsky/CS82ANGULAR/wiki/270-Nginx-as-load-balancer-and-reverse-proxy-in-Docker)
+  - Чтобы понять один из возможных вариантов решения этой проблемы.
