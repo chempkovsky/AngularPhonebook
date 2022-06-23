@@ -1337,5 +1337,5 @@ docker-compose -f "docker-compose.yml" down
 
 ## Proxy и Балансировщик нагрузки
 - В данном Demo все WebApi сервисы "смотрят" наружу, т.е. решение имеет больше одного открытого порта.
-- читайте нашу статью с пошаговыми инструкциями [270 Nginx as load balancer and reverse proxy in Docker](https://github.com/chempkovsky/CS82ANGULAR/wiki/270-Nginx-as-load-balancer-and-reverse-proxy-in-Docker)
-  - Чтобы понять один из возможных вариантов решения этой проблемы.
+- Чтобы edbltnm один из возможных вариантов решения этой проблемы.
+  - читайте нашу статью с пошаговыми инструкциями [270 Nginx as load balancer and reverse proxy in Docker](https://github.com/chempkovsky/CS82ANGULAR/wiki/270-Nginx-as-load-balancer-and-reverse-proxy-in-Docker)
